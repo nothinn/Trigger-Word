@@ -1,5 +1,5 @@
 Keras-Trigger-Word/
-data/
+data/*
 
 !data/export_word.py
 !data/source.txt
