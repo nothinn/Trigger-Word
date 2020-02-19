@@ -3,3 +3,4 @@ data/*
 
 !data/export_word.py
 !data/source.txt
+__pycache__/
