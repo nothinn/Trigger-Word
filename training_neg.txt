@@ -1,0 +1,1505 @@
+data/words/snowboy/94102c0c-88b5-4dbe-881e-0b5459558b8c.wav
+data/words/view glass/af8c7487-a36b-4c3b-9bf4-38d4af930eb9.wav
+data/words/view glass/1b93ddc5-0806-4e23-ad09-ce9a3d7ab389.wav
+data/words/snowboy/9557fda7-06f3-4943-b6a1-ad1375cba376.wav
+data/words/jarvis/2a713afc-d208-4eab-9dc1-fcdd862d8db6.wav
+data/words/smart mirror/72d0d7d7-e48c-4573-bb8b-7dd87da9534a.wav
+data/words/alexa/285.flac
+data/words/snowboy/b4b1150d-5743-4d29-8c1f-4290be25d89b.wav
+data/words/alexa/241.flac
+data/words/alexa/306.flac
+data/words/jarvis/0eaa1c84-950f-44d1-88f1-f000c3e6e4ba.wav
+data/words/smart mirror/97437eb3-ce5e-4f21-8b73-503faabb1546.wav
+data/words/smart mirror/9475307c-b119-41f2-b9e7-912eb30f0fa5.wav
+data/words/view glass/b9de73e3-82bc-4c4e-b227-382d40644fa5.wav
+data/words/smart mirror/60b7c4a5-32b7-449c-85f5-4b8897b28e47.wav
+data/words/jarvis/efc2ef6a-e2b6-4b2f-ae66-c655e5fe2fc7.wav
+data/words/smart mirror/9f6e1048-bdf1-4398-8c1f-2e8a78f8e9d5.wav
+data/words/view glass/a0667edd-6f2a-4559-909c-d0e9c610a688.wav
+data/words/jarvis/7ddd7a7c-3844-4b47-bc2c-6e6538257051.wav
+data/words/snowboy/ae040529-aa17-4f53-88af-e5b1e39604d9.wav
+data/words/view glass/792d3429-95e4-42d5-b142-68eba49b6ec5.wav
+data/words/jarvis/a2e0f123-017b-46b6-ba70-3f772e315914.wav
+data/words/alexa/122.flac
+data/words/snowboy/d06c5845-c087-4751-8173-83c0485347f2.wav
+data/words/jarvis/49453cb2-7a15-40ad-be53-47cfc0bb4a25.wav
+data/words/jarvis/e6913f8e-d63d-4af6-bc83-0f1ba9769668.wav
+data/words/jarvis/91b14974-1305-43f8-b1b4-61fac55bf712.wav
+data/words/smart mirror/34fcee33-fd8f-40ff-8664-b65bc2c90507.wav
+data/words/jarvis/ae82dad0-211f-466d-9886-0baeb4a68528.wav
+data/words/smart mirror/912fd8b4-c10f-41a6-917b-8e237f99aa25.wav
+data/words/smart mirror/afa72a0a-1177-46a7-9a45-77fc46bc13d3.wav
+data/words/snowboy/1cab5ce0-593f-41ea-9a19-1f263a972bb1.wav
+data/words/jarvis/047c8b1f-e86c-46ad-b72f-c5ab656cc552.wav
+data/words/view glass/10a4e8ed-1a36-453c-9e13-6ca02b81f30a.wav
+data/words/snowboy/f19eec23-da86-4032-913b-3c71f1836b93.wav
+data/words/snowboy/b64851a0-1663-4b2f-a2d5-475dd8e480c7.wav
+data/words/alexa/101.flac
+data/words/view glass/61ec09fe-4838-4f90-8eff-bcbef50ed2b6.wav
+data/words/alexa/103.flac
+data/words/view glass/5fedde3e-318d-43e6-b965-25d6a468e43b.wav
+data/words/alexa/20.flac
+data/words/smart mirror/84939a83-6aa2-4850-8fba-15937b58b524.wav
+data/words/smart mirror/81b62a66-634b-45c2-a4d1-4b0d352aaa85.wav
+data/words/jarvis/a60d09eb-6685-4b44-b664-ed3a3db8f91b.wav
+data/words/smart mirror/36c31f61-8330-451e-af7b-54866ef66339.wav
+data/words/smart mirror/32b3aad8-7420-4f25-9ffc-786e435d25aa.wav
+data/words/snowboy/c9392d7a-3d4e-4d59-8460-9673e18ec3a3.wav
+data/words/smart mirror/3ec79225-8ff0-4382-bbb4-3cfd35e5e9fc.wav
+data/words/alexa/291.flac
+data/words/alexa/105.flac
+data/words/view glass/5b283d37-15d0-42ef-8515-0b5fb6e013db.wav
+data/words/alexa/227.flac
+data/words/alexa/211.flac
+data/words/snowboy/7c3e98af-1da6-46da-888f-0ce9e91282bd.wav
+data/words/snowboy/ce071a84-17d0-445a-91a8-b421d12d190d.wav
+data/words/jarvis/5928f0af-1e13-41b3-9028-951f66b05fe1.wav
+data/words/snowboy/8d9169e8-a3b7-45e1-bb65-f1639162ec81.wav
+data/words/jarvis/016f5c2e-907b-4711-8a3b-49b73a0655c2.wav
+data/words/smart mirror/50422a64-dbbb-45d4-a861-bf2e8bd92758.wav
+data/words/jarvis/5799157e-8d78-43dd-8a6b-fb0e61d57d46.wav
+data/words/smart mirror/c8bb5621-f9de-43cd-9cdb-3f560c9994cf.wav
+data/words/smart mirror/cb6a3bde-963f-4aa4-8a92-4f26a8559dab.wav
+data/words/snowboy/aa147b11-20fd-4d86-b940-ed0d9db13a69.wav
+data/words/view glass/e850ab43-2f4c-41f1-8f6c-f2ea68318a0a.wav
+data/words/jarvis/4142863d-979d-49c6-b2fd-8552c90c685f.wav
+data/words/view glass/3fc92f8e-0788-41a0-90ac-50c519bbdf73.wav
+data/words/alexa/205.flac
+data/words/smart mirror/c915875d-de13-48b2-965c-a1503910b43e.wav
+data/words/snowboy/c063a89c-f9ed-4efe-adb1-556834734e9b.wav
+data/words/alexa/127.flac
+data/words/smart mirror/f5d0a87c-1751-42fa-8f09-61109fa65bb7.wav
+data/words/smart mirror/4377963f-b933-4aba-b071-eed20bc96d19.wav
+data/words/snowboy/4fe4ff1b-7123-465c-a0e4-d80ef8d0f3bd.wav
+data/words/view glass/c362c11d-a635-40a8-9f60-27e9b7a032d3.wav
+data/words/snowboy/994d20bd-7b2d-402b-ae15-e78aa64e416b.wav
+data/words/snowboy/9fb576b6-213d-4f44-92a6-1fb4d021256a.wav
+data/words/snowboy/3a9f926f-f344-41c9-a7cc-666de8d52367.wav
+data/words/jarvis/ed848cef-b5bf-4ffa-b169-348e78cbcc7d.wav
+data/words/view glass/2f95bab2-58c0-4d1c-9fc1-0754db6deb5f.wav
+data/words/alexa/86.flac
+data/words/view glass/8fcded3a-e0ed-4e55-bd35-5db8ddad5135.wav
+data/words/smart mirror/a5d371f3-02bf-41c9-af08-ca882caa0ca2.wav
+data/words/smart mirror/6de96bc0-5439-4fa4-812e-b2390463869a.wav
+data/words/jarvis/81ff68da-a48b-460f-b714-791e75568dfd.wav
+data/words/view glass/f15168f0-707a-4b2e-bed7-7c9e3cbe9c44.wav
+data/words/alexa/96.flac
+data/words/jarvis/ec9ab717-1c38-4a24-9f9f-0ac95553bed3.wav
+data/words/jarvis/9338afb8-e2c1-4e45-bd25-c00f6bf5119d.wav
+data/words/smart mirror/7098fe50-a0df-4689-a8f9-d95b0f64d9c9.wav
+data/words/alexa/243.flac
+data/words/snowboy/55fb14ff-2188-4831-83ff-08720db35df8.wav
+data/words/view glass/8a97b57f-8af1-4997-8ecc-7faa29805643.wav
+data/words/smart mirror/e7d76bf8-297a-438b-a5b6-5234663d212c.wav
+data/words/snowboy/abe3cc03-3dd7-4e0c-a236-1c7d05de583d.wav
+data/words/snowboy/377e2538-438f-4520-9f71-0187fdfeb7cd.wav
+data/words/view glass/9b877a27-57aa-41a7-a328-0ac5ce44c7a4.wav
+data/words/jarvis/210b5eb1-5852-4d2d-8e7e-c0489c39c80d.wav
+data/words/alexa/292.flac
+data/words/smart mirror/8c1daba4-1c18-4ecf-b23a-1cc57abde2a5.wav
+data/words/view glass/9f1cbdf2-947d-4aa1-bb5f-05ed1e746c32.wav
+data/words/alexa/162.flac
+data/words/alexa/315.flac
+data/words/jarvis/6a8a0d5f-514c-4e7e-bc98-961ecef12f1f.wav
+data/words/view glass/2ec26e40-43b8-46de-b2c5-9ef9fd6ec52d.wav
+data/words/smart mirror/b643feb4-dc27-423a-944a-517417820167.wav
+data/words/jarvis/b4a040d8-a24e-474b-975c-ecca924aab76.wav
+data/words/jarvis/29c87473-6feb-481d-ad8e-6b32c0700f55.wav
+data/words/view glass/9a6f5f34-743f-47b4-b4c8-479d24e63f37.wav
+data/words/jarvis/4ce6016e-b6bf-4e95-8cc5-8e000f84fa8f.wav
+data/words/alexa/194.flac
+data/words/alexa/233.flac
+data/words/smart mirror/913e982b-cc62-4dfc-86e0-5e8ec633269c.wav
+data/words/view glass/09569232-7ca4-4d69-8f5a-61d44fdc3ea4.wav
+data/words/jarvis/4a2ff204-2635-4bee-8a07-3a66fcde1995.wav
+data/words/view glass/f596e38c-609b-416a-bb73-8757f1b4e3a3.wav
+data/words/jarvis/be053510-7b5e-4f7b-b08a-83ae53d7a3d7.wav
+data/words/view glass/72c2fef3-51dc-4272-b5b5-afc94acbe1e4.wav
+data/words/jarvis/850f34ba-43eb-417a-87f9-b5b8ee2d0257.wav
+data/words/smart mirror/5eeb884b-8085-43cb-b080-27b1ebc0ef65.wav
+data/words/view glass/657b3102-9e9c-4d6b-b5d1-c7b8f291c8bd.wav
+data/words/jarvis/8a1cb89d-9586-411f-a161-f33ffbe2a073.wav
+data/words/smart mirror/9a53bd36-6424-4fe1-add6-3c643825aade.wav
+data/words/snowboy/7ec3ee2b-0968-4662-b0aa-fb442613e7c2.wav
+data/words/snowboy/3cf614db-aeab-4491-8f93-e1bae52706f4.wav
+data/words/alexa/85.flac
+data/words/snowboy/41f871d0-0614-452b-88a3-3671f332973a.wav
+data/words/jarvis/da35ad6c-29eb-4db1-bb0e-3c5ef6995c4b.wav
+data/words/jarvis/11dc475a-47a0-4079-9cad-a63bbdeca647.wav
+data/words/jarvis/3ff88ea2-d331-48af-916d-cbf0d047afa6.wav
+data/words/smart mirror/2022c1f7-d227-4d29-ae8a-0317afaeb41f.wav
+data/words/alexa/68.flac
+data/words/jarvis/e327f4ad-2c23-4a00-ae32-4669196a4e5d.wav
+data/words/alexa/179.flac
+data/words/snowboy/a7e24450-db54-45e2-ad4a-91218d96813c.wav
+data/words/snowboy/348e2454-d109-4486-bf43-b1353167b7e7.wav
+data/words/alexa/327.flac
+data/words/snowboy/5105261f-9d76-4c0c-a7d2-cb51a2d1f149.wav
+data/words/jarvis/1f549862-de22-4af0-875d-7ff927d127c2.wav
+data/words/alexa/36.flac
+data/words/view glass/65675d1e-0116-4666-81da-825f7523ffb0.wav
+data/words/smart mirror/5bc6e1ef-a738-412d-a023-28bc037f677d.wav
+data/words/snowboy/8e9dc299-fa1a-4154-a11f-d5130fef3451.wav
+data/words/jarvis/ca38971f-daf3-4f5c-b5c0-cb02d5d59717.wav
+data/words/view glass/08683d76-33de-40f8-9fcc-629d6e73d302.wav
+data/words/snowboy/308765d5-09d2-49a6-a47c-8147ef1bf716.wav
+data/words/alexa/87.flac
+data/words/snowboy/ae13d813-de74-488f-a873-992f5066e561.wav
+data/words/snowboy/d6500fb1-a7f3-4059-84a8-8e65abae75b3.wav
+data/words/smart mirror/c3c2ebaf-537b-4442-a23e-1cddc897d66b.wav
+data/words/smart mirror/d1d1c713-02d4-40e8-950c-bfa444643b6e.wav
+data/words/smart mirror/53cfc71b-a341-43e3-ba84-c3c64166c861.wav
+data/words/jarvis/5fb5791e-92a6-4b68-8ddb-296cd6f4c05e.wav
+data/words/smart mirror/b5d55c7c-70f2-4527-bcaf-3afa9853b2cf.wav
+data/words/snowboy/fb9ab2e1-e134-4f10-b3b2-ae7d60987647.wav
+data/words/snowboy/f6336ef4-a024-4893-a6b3-230ff1d2f5b4.wav
+data/words/view glass/a10ca597-e9e2-4660-8f2c-2b2eb91bbf8f.wav
+data/words/jarvis/ab0ec2b0-f437-42d3-9b07-1ccdd7dcb077.wav
+data/words/snowboy/945e6182-34dd-4d1f-982c-08bbab1a8693.wav
+data/words/jarvis/14661979-11a0-4d9f-a9e3-2fb72a5c2350.wav
+data/words/alexa/297.flac
+data/words/alexa/116.flac
+data/words/snowboy/a4b7b54d-ebcf-4a1e-8481-6674bcb5a2cd.wav
+data/words/view glass/b2e33726-5236-4246-a29a-0cf85d6d4227.wav
+data/words/smart mirror/fd072953-e89c-4a2e-94e3-7fcb54b84848.wav
+data/words/jarvis/a3914ba5-4018-4fd1-9a47-d02edab32fb6.wav
+data/words/jarvis/c07e53fb-a2df-490f-a27e-1dca83ac7e1c.wav
+data/words/view glass/0501d19b-c629-4eb4-a2cb-56bd9716c970.wav
+data/words/alexa/252.flac
+data/words/alexa/71.flac
+data/words/alexa/212.flac
+data/words/alexa/210.flac
+data/words/alexa/200.flac
+data/words/jarvis/31d0b12d-360a-4fd6-b531-a8712042a500.wav
+data/words/jarvis/7a774a94-9dbe-4666-b6f5-d94cf85ee69c.wav
+data/words/view glass/13230dbc-8819-4cee-87bc-a727ecd535a8.wav
+data/words/smart mirror/f8e295b4-5c97-493f-ae36-8f4a73e20b59.wav
+data/words/smart mirror/e472d0de-7ebd-43c0-acd8-40578e972be7.wav
+data/words/smart mirror/46f27afa-c5ea-448b-b3b8-6cb30c2c64e3.wav
+data/words/alexa/59.flac
+data/words/smart mirror/b5820c42-a23d-4dd4-9410-ad0e27b977c8.wav
+data/words/jarvis/bcacc91d-4467-4316-a42f-1ee40c2da9bc.wav
+data/words/jarvis/54a6add7-bf1c-4ffe-b30a-dd87a1dabc26.wav
+data/words/snowboy/bf7f2392-9680-4b09-8ba2-77e75cab365c.wav
+data/words/smart mirror/dbf87894-d16e-4599-98cc-85db31258540.wav
+data/words/alexa/195.flac
+data/words/jarvis/3a510ab8-2112-4d6e-ab5a-da408c80421a.wav
+data/words/smart mirror/2311f046-bd6b-40b4-8560-0a2351d22450.wav
+data/words/jarvis/7b974d11-814f-408f-ba97-ff7ba492b0d5.wav
+data/words/alexa/220.flac
+data/words/view glass/d3a20159-f6df-42f4-8a1d-8fa174537bac.wav
+data/words/view glass/e99b39c7-0d96-4af5-867a-dc74c501500c.wav
+data/words/view glass/cc019a75-64c7-470e-8ade-48387336355d.wav
+data/words/alexa/254.flac
+data/words/snowboy/2cab725c-0395-4d82-b8b5-1e2399d6c3dd.wav
+data/words/snowboy/d2babf72-ecb7-4830-91bc-c51e658aed9b.wav
+data/words/smart mirror/02067e8c-f1bd-400a-80c2-605afcb7778a.wav
+data/words/snowboy/7ae645e0-e099-414f-be17-c8137a28a5f4.wav
+data/words/smart mirror/463e0ece-07dd-400f-8cc7-16338940fe25.wav
+data/words/jarvis/f20aa802-9430-412b-a52b-678ace2b4ea4.wav
+data/words/view glass/04c6466e-12a9-4d3b-86be-618fc1e49d7d.wav
+data/words/view glass/7b581e95-a97d-465b-a9fb-de73aa79a257.wav
+data/words/view glass/dc80a284-bc1d-4c1b-8f70-cf97ce0470ed.wav
+data/words/jarvis/b250fa05-8412-4b9b-84f8-e0147143d57e.wav
+data/words/view glass/42b5fd2b-765c-4806-81ab-b7c93cca30ff.wav
+data/words/view glass/19ac974e-8348-4d19-a69a-1e2037351324.wav
+data/words/alexa/39.flac
+data/words/snowboy/c7022ec8-11af-4fcb-a7cf-a313c8a1ddd6.wav
+data/words/smart mirror/ace074c5-e389-4870-8a21-3411d8b56b62.wav
+data/words/jarvis/a7a0606a-aec2-4605-bf57-19f7a7149b2f.wav
+data/words/view glass/24ccaa19-10aa-4159-90e7-f341e4f9d2d7.wav
+data/words/jarvis/5907df93-c241-4024-a88d-3d468247c4d7.wav
+data/words/jarvis/7d0f9956-8e12-4fb2-acb2-2b9e42dacf13.wav
+data/words/view glass/a8c28c7d-51e6-4d84-b048-1df7d6244f62.wav
+data/words/snowboy/bcfb24bf-f01b-4aa3-b3c3-f389c3b15537.wav
+data/words/alexa/69.flac
+data/words/view glass/342ca79d-a46b-423a-a3f9-f359f0b09126.wav
+data/words/view glass/ccb3a21f-b0ff-48ef-adb5-ecef2ad90ac1.wav
+data/words/alexa/247.flac
+data/words/alexa/255.flac
+data/words/view glass/9d913f82-66e1-4313-baef-d93be3ac9cf1.wav
+data/words/jarvis/1259a708-b8be-481b-b4cb-e30e04eec030.wav
+data/words/view glass/ae9c840e-73cf-4aa1-83b2-aa869cd1ab78.wav
+data/words/snowboy/baef4b6e-ad1f-434b-966a-5eea5a6ccdca.wav
+data/words/view glass/91f73f43-be67-485c-980f-283825d373ab.wav
+data/words/view glass/4379b53c-a0d8-46a1-9ca6-1f41a4002768.wav
+data/words/smart mirror/cde51312-74c1-44b9-96b9-63d213ecd1e6.wav
+data/words/smart mirror/c3288e6a-ed87-44db-be8f-c5d1818e33f6.wav
+data/words/snowboy/2ea01c9a-afa6-4f17-b760-74d9b9caf160.wav
+data/words/smart mirror/ff0020a7-75b6-452a-9273-fa7843823da9.wav
+data/words/view glass/0ad4dcb2-d407-4f1d-83a5-ce5f8492c2fb.wav
+data/words/smart mirror/c35b16bb-8cb3-4bd1-9591-9732e57e68d6.wav
+data/words/alexa/206.flac
+data/words/view glass/973f32e7-762c-4fcf-96d0-1b57541e19ef.wav
+data/words/smart mirror/6f8abbe7-08ec-4585-a911-3ef44107c2f6.wav
+data/words/alexa/120.flac
+data/words/smart mirror/3158445c-646a-4efe-980b-b7222f1feede.wav
+data/words/view glass/d740c25d-ff03-4deb-be2b-c31c915bf78f.wav
+data/words/alexa/100.flac
+data/words/view glass/585e3924-e4cc-4a55-ab1f-157e0c7c981f.wav
+data/words/alexa/44.flac
+data/words/snowboy/75ee95ab-9561-4e14-b6c1-886c7cd0c25e.wav
+data/words/smart mirror/69fbfa18-d190-40b7-99a2-8786f84dde72.wav
+data/words/snowboy/b947befe-8565-441f-a183-bd39826fa850.wav
+data/words/jarvis/43dd2cf1-52cd-44c9-8a60-caf7b8d38444.wav
+data/words/smart mirror/996cd415-ae14-4a77-8b57-5cad545b60b5.wav
+data/words/view glass/1459404f-3e06-4d35-a251-51b3588acb7d.wav
+data/words/jarvis/70172a70-a727-4e1e-aeb9-e4674fd8ace6.wav
+data/words/smart mirror/99285032-3da6-4312-924a-f1eb8cea3777.wav
+data/words/view glass/d7d1f7c2-5917-42c9-a320-1fe70ec5e9ff.wav
+data/words/smart mirror/599834f1-61dc-41d4-aa00-00485b9917ef.wav
+data/words/jarvis/7e28a1bd-5c23-4562-aff3-90c10113bbf3.wav
+data/words/view glass/c94720a4-6d69-4ffb-8332-eaecc48b9998.wav
+data/words/view glass/91b09e10-de4b-423c-89f7-5d23c3e63f91.wav
+data/words/jarvis/70d0c644-7ad6-4ce6-beb9-71c9000b5454.wav
+data/words/jarvis/1ddadbc1-4d52-4df8-88c2-8615587e2608.wav
+data/words/jarvis/73a2922e-6dce-40ff-a0a4-6c05a0c0cd67.wav
+data/words/alexa/12.flac
+data/words/snowboy/be7c6c06-2891-4f58-9d0b-88996f2d48d6.wav
+data/words/snowboy/9b50c37d-5217-4440-98a9-040405e188e9.wav
+data/words/smart mirror/d2529aad-3041-4280-bd1b-124ca19c24bd.wav
+data/words/smart mirror/5a2c5eaa-ed64-4a61-b418-8ee9b55feae5.wav
+data/words/snowboy/33cbc151-9c1c-43d7-bbd2-bb1e412e6ede.wav
+data/words/alexa/93.flac
+data/words/alexa/304.flac
+data/words/alexa/202.flac
+data/words/jarvis/0df7b7ff-d667-488d-b4c2-ea78b4b847fe.wav
+data/words/snowboy/46461bfc-cfc1-477b-8111-11259231c4e2.wav
+data/words/alexa/1.flac
+data/words/alexa/246.flac
+data/words/view glass/1148fece-86cc-4244-a0b8-ca56a429ce36.wav
+data/words/alexa/65.flac
+data/words/view glass/90ac79ee-7a33-4965-bece-4a8da4b70939.wav
+data/words/view glass/41f6574d-25a7-439b-95d9-d72dc6625cd2.wav
+data/words/jarvis/bb7306ea-1e7a-4714-b2af-9f4300d56abc.wav
+data/words/view glass/92eb626c-a7e6-4716-a2b4-321a7cdd321c.wav
+data/words/jarvis/f0c063e8-64b6-4c52-8e77-44090616256c.wav
+data/words/view glass/908cb4d0-0b96-40bf-904e-1aef620837c0.wav
+data/words/view glass/862ca5b1-e625-47e6-b894-d740437124ae.wav
+data/words/view glass/e77722eb-9141-4d9b-8b74-e3a604010c77.wav
+data/words/view glass/cb4f5db9-0d02-4ded-85bb-4a8fa1f952c5.wav
+data/words/jarvis/da0b32c6-6358-4807-b89a-694cfa5d6a86.wav
+data/words/view glass/302d1f46-e851-4fd4-8d5b-76955c65b599.wav
+data/words/snowboy/d7d46f48-a223-41d8-b235-becc12e7a3e5.wav
+data/words/alexa/182.flac
+data/words/snowboy/f794709e-2b05-4814-a1f1-1e3f062327d0.wav
+data/words/snowboy/7d515d21-9e61-4d8e-b309-3035339fb8c2.wav
+data/words/snowboy/dd6b4397-c2f2-45cc-8f4c-a61340ae10db.wav
+data/words/alexa/147.flac
+data/words/snowboy/09fabb6f-2abd-44e3-84c3-fce6df2e02b5.wav
+data/words/view glass/be9a627d-d4b8-420e-8ade-161e15a2ce72.wav
+data/words/jarvis/5ee436a9-b8f5-4da3-bf38-231e3a59554b.wav
+data/words/alexa/31.flac
+data/words/smart mirror/8d6dabba-1e27-4617-8fdf-1a94ce2c240a.wav
+data/words/smart mirror/06718b3c-fb9f-400e-afb2-8080ec2ecfa1.wav
+data/words/view glass/ea91cf6d-18dd-4ef4-bc97-a66f3782cc5a.wav
+data/words/smart mirror/8b0ebee5-5bb0-4db0-8bec-913dc53994ce.wav
+data/words/jarvis/adf589b6-341d-40ac-8c1b-7a686713bb1d.wav
+data/words/jarvis/95894a06-b82b-4292-ae49-c5801c6415db.wav
+data/words/snowboy/45b725f0-82fa-4dc7-8b6f-da03500ec67d.wav
+data/words/view glass/2a7739bf-f4df-4eba-8c78-0a55ec004d19.wav
+data/words/view glass/6369cd6b-aede-4884-ac9e-354f609a57a9.wav
+data/words/snowboy/c930baeb-43b3-42ac-9284-597b56ea9057.wav
+data/words/smart mirror/43b15490-7cc4-4d94-927f-91cb6c5cae33.wav
+data/words/view glass/7fd5c26c-4752-4786-8b10-d51d485b4dce.wav
+data/words/jarvis/927c451b-ca5b-4780-a9fb-bc4f305ed9a5.wav
+data/words/snowboy/574708d8-dbf3-42b4-bc44-e8aca67ae14f.wav
+data/words/jarvis/bd5617e9-ea6c-44e2-8b5b-274328cf78eb.wav
+data/words/smart mirror/e68b7a04-08eb-40f9-ae5a-536b56743049.wav
+data/words/alexa/282.flac
+data/words/snowboy/12c1ee0b-1e2e-4fe2-8bc3-622423a0da70.wav
+data/words/smart mirror/d1c39c67-8587-4d5d-89a1-07b9ee944071.wav
+data/words/alexa/18.flac
+data/words/snowboy/d2b7975a-4521-4aa9-ae7a-78715334887d.wav
+data/words/jarvis/65232fc3-de23-40e1-81cf-fc9deb6c9354.wav
+data/words/view glass/8a89551f-2112-41e8-9c01-7b2a4afcf19f.wav
+data/words/snowboy/c9cfa2ac-01d2-4164-9fdc-c2ccfa89d861.wav
+data/words/alexa/187.flac
+data/words/alexa/73.flac
+data/words/smart mirror/087e2aae-8749-4d59-815d-fc7e6f7d904f.wav
+data/words/view glass/95bc1504-0819-48c1-b145-05593f552a6f.wav
+data/words/smart mirror/c94c1a52-0661-40eb-a66d-1e60d5f510b0.wav
+data/words/smart mirror/169e5ad5-ef13-4eda-be57-d0aecfc1e92c.wav
+data/words/view glass/74d0c43c-19bf-4062-8284-512670f6ee6a.wav
+data/words/smart mirror/4ff31576-e087-4844-8314-0857bf32db19.wav
+data/words/snowboy/3ec2320f-e192-4706-9628-937fe0acd43c.wav
+data/words/jarvis/b4a52157-0083-4bf9-83bd-bf33398d1da0.wav
+data/words/snowboy/420d2c97-e58c-4c53-80ab-e626d00fc578.wav
+data/words/alexa/249.flac
+data/words/snowboy/4cc878ef-3bdf-4fd8-b43c-2cdbec69c5b1.wav
+data/words/alexa/253.flac
+data/words/alexa/29.flac
+data/words/smart mirror/c6ec3b10-6c0d-411a-8560-fd44d12f4b62.wav
+data/words/smart mirror/8d707ef0-7380-4b58-93f1-ee449fec1978.wav
+data/words/jarvis/a6762fe6-cc23-4b18-b01a-3463d626233f.wav
+data/words/snowboy/b612c929-91ff-4d55-81df-32191f5b3355.wav
+data/words/snowboy/2cfc6d0b-b468-4f29-a67c-903bd8ac169d.wav
+data/words/smart mirror/dc109567-4b04-4e70-88a3-674d4e3334e6.wav
+data/words/snowboy/09edbfcc-c891-4109-ba17-0d2ec6bbb01c.wav
+data/words/snowboy/9e9cfefa-2c15-4d13-a189-23befd8337ec.wav
+data/words/jarvis/4cd887a4-37c1-4d45-a361-587b23135894.wav
+data/words/snowboy/da112263-fe2e-49a9-8604-4f27792a5c72.wav
+data/words/smart mirror/b456eab0-9621-4c51-98e8-d2d621c26a8f.wav
+data/words/view glass/5fbe1bdd-b509-41d4-9d64-8a32872a7a5d.wav
+data/words/jarvis/a2dcd8f7-7b89-4c4f-a445-7b5cb2eba163.wav
+data/words/snowboy/5788236a-d396-454c-8c4a-8bdc5d9756d2.wav
+data/words/snowboy/829b1ee4-1845-413d-b381-3f14e6f8767f.wav
+data/words/view glass/d58c9267-9839-4284-ad59-0f58f4fb72b0.wav
+data/words/view glass/f47aee00-0030-473e-97be-ae7b2f92a626.wav
+data/words/alexa/160.flac
+data/words/view glass/3299547a-8ca7-4d2a-a68f-fe801562ea6d.wav
+data/words/snowboy/37607b84-71fc-4609-856b-ee80418d3d83.wav
+data/words/jarvis/62e78552-846b-489e-9f2d-9c49bf6135de.wav
+data/words/view glass/eae501c6-162a-4dbe-980c-576118b15c26.wav
+data/words/smart mirror/46b5b7da-9b67-46ae-99df-0b8861e4e87a.wav
+data/words/smart mirror/ecae869a-fa69-4b90-843e-127faa6d7d8c.wav
+data/words/alexa/320.flac
+data/words/alexa/17.flac
+data/words/snowboy/c54ff85f-7d3a-4edb-b2be-c7245f13fd96.wav
+data/words/jarvis/925af243-2920-402e-83f9-c601aa96fa7d.wav
+data/words/snowboy/4f2f15c5-95e7-4a76-a665-f57614834318.wav
+data/words/view glass/48f5bdc2-2fa0-4e16-825f-0227bbd17d83.wav
+data/words/view glass/056ee638-ac00-4fc9-956f-b844216cd867.wav
+data/words/smart mirror/49ec3059-0033-4949-b958-0b7b8c9fdef5.wav
+data/words/jarvis/34b5b3d9-c9e6-4975-a7cc-9cd2a297e748.wav
+data/words/snowboy/ab66732f-a6a2-4a11-b3ac-996f409c2196.wav
+data/words/snowboy/4cfb93fb-d908-4a5b-ac30-ac856206d520.wav
+data/words/snowboy/bbdcf055-774f-492c-aa5c-ce9eecabf879.wav
+data/words/alexa/140.flac
+data/words/view glass/302d0853-05ac-4e77-941e-a73208c5f41d.wav
+data/words/jarvis/cf90d24e-b50b-4225-b665-0fea997a5eaa.wav
+data/words/snowboy/95b26f99-12d4-4739-b36f-e1245b94d4dc.wav
+data/words/snowboy/471d7d7e-f729-4ade-855f-cc1fe9b60825.wav
+data/words/alexa/62.flac
+data/words/view glass/71eb2552-c899-4076-ab66-b44991647e11.wav
+data/words/jarvis/65ed68f5-94fc-4c47-a741-f300ef0ffe16.wav
+data/words/smart mirror/bdbb320f-8d33-4400-af15-cc575fe4caf3.wav
+data/words/jarvis/c5e1aab8-06f6-464c-a6d6-bb8737275c84.wav
+data/words/view glass/36528fcc-cf16-4f95-a2ec-0fde6ae1f820.wav
+data/words/view glass/deacbecf-c374-4238-96db-5ec43e88be94.wav
+data/words/jarvis/ed504403-21f2-48ab-93c7-2aea5c223243.wav
+data/words/smart mirror/6c943f6a-9070-4397-90ff-bc3e45efb214.wav
+data/words/smart mirror/93dfddbc-30d8-44fe-a9bd-94517f90a2aa.wav
+data/words/snowboy/fd95bd6d-e71b-4786-be45-a64e6a2a1417.wav
+data/words/smart mirror/80780f21-1ca5-4d1c-a582-1a5cdf42a9c6.wav
+data/words/snowboy/97486f4a-d254-48aa-9fe3-d96fdeedcfd2.wav
+data/words/view glass/1ec9a03b-d029-4d04-8604-2c00f6fedee8.wav
+data/words/alexa/279.flac
+data/words/view glass/5428f62d-977a-45ff-8faf-fd347114352e.wav
+data/words/jarvis/d33d7dc4-dd11-4253-9d49-47ad83fff2a3.wav
+data/words/alexa/4.flac
+data/words/alexa/239.flac
+data/words/view glass/b88eed5d-162b-41d6-9c51-8c47a50a996b.wav
+data/words/snowboy/295164a1-9c57-44d0-8bce-24acbd09226d.wav
+data/words/alexa/201.flac
+data/words/smart mirror/89db4cc7-4496-47c8-9362-b6d2f6054b9f.wav
+data/words/smart mirror/a73dc4cc-0507-470f-bef6-382f6830cd49.wav
+data/words/snowboy/e46d3718-dd18-4d86-826d-60db1972988b.wav
+data/words/jarvis/1f79ab12-639a-4d89-9bcc-704b1119e4e2.wav
+data/words/smart mirror/661e49b5-8f15-432e-8577-4bd631e48206.wav
+data/words/jarvis/0c7910b3-4414-4d48-9e6f-292a1d099f6f.wav
+data/words/snowboy/02858713-aac4-45e0-91b4-5a9fffa0d6ec.wav
+data/words/snowboy/ffd5ff82-98f0-4d27-9c9a-68c4083d7adb.wav
+data/words/jarvis/6c6274db-23a0-442c-8f17-ba65dd3ed3e4.wav
+data/words/view glass/39ff2719-c477-476e-913e-d70b65f95246.wav
+data/words/view glass/10c9512d-e07a-4273-9956-35806e1b4a94.wav
+data/words/smart mirror/f0ad3543-5970-47ef-a5ef-aed4dacf7918.wav
+data/words/alexa/319.flac
+data/words/snowboy/c5ba3a2e-9e5d-4a8b-a411-533d03a9a75d.wav
+data/words/view glass/cacafd81-8e91-43f9-9e3c-07551a31f00e.wav
+data/words/view glass/d54b1bf2-a844-40c0-8e76-460cf0a02c81.wav
+data/words/snowboy/417f8293-4c98-4a50-8db2-33d423d8790a.wav
+data/words/view glass/34626f09-00ff-4be0-9b73-1f9d9e94bcb4.wav
+data/words/alexa/226.flac
+data/words/alexa/53.flac
+data/words/alexa/143.flac
+data/words/alexa/49.flac
+data/words/view glass/c874736b-e6d2-4224-8047-cf9b287c00be.wav
+data/words/snowboy/60db4832-a936-4b09-925e-72fbe9813325.wav
+data/words/jarvis/087cffed-7626-46b0-9918-986fc42ab873.wav
+data/words/smart mirror/13427b07-57ea-4f43-968f-1f97b51dfe5a.wav
+data/words/jarvis/ce055713-2841-4b48-ac98-57be03959e3e.wav
+data/words/smart mirror/2684ec48-4f36-4530-8e89-643768c42af1.wav
+data/words/smart mirror/f4649e51-78cd-4d63-9c38-5e7314f42995.wav
+data/words/alexa/40.flac
+data/words/smart mirror/fa960769-7fcb-4722-b71c-ab0e02139d19.wav
+data/words/snowboy/0362f5e4-041a-4bde-b54e-a41fcf44675b.wav
+data/words/smart mirror/5a9529fc-ee2f-4b50-9f19-721d723134d8.wav
+data/words/snowboy/5451d3fd-b9a1-47aa-849f-90c499908d93.wav
+data/words/view glass/dc286a39-4972-44c8-9cf7-b4d5a6572f5b.wav
+data/words/view glass/518f290d-cbd9-4a34-8481-39aff5865aea.wav
+data/words/view glass/4fbe58d7-7669-4c1b-ad2a-8769f93eca5f.wav
+data/words/alexa/190.flac
+data/words/smart mirror/8616497c-b2d4-4c28-b5d5-c00698324166.wav
+data/words/smart mirror/e8d6a66c-a6e7-4c98-9136-0e23dd911b9e.wav
+data/words/snowboy/ceb742c6-b428-4f54-8735-cd9d1085e542.wav
+data/words/alexa/313.flac
+data/words/smart mirror/8d6c419e-c0b6-4a4c-bde1-cea591c7ee9d.wav
+data/words/view glass/ed52fe45-b38c-4fb5-b627-6a9e0f86da19.wav
+data/words/jarvis/f01ec0ad-0541-4e06-b261-ba97741399be.wav
+data/words/view glass/7abf15fc-f1df-4e89-b361-6f1329af10bd.wav
+data/words/view glass/3ef453c1-f785-41c6-868a-8559c2b0bb97.wav
+data/words/view glass/29ee2256-01d4-4788-a231-24090769d88b.wav
+data/words/view glass/61a76ba8-257d-4cc0-a7ef-15a54057f49f.wav
+data/words/view glass/6f0a5acf-7404-473c-bf2d-d20a202a8f3f.wav
+data/words/jarvis/2740789e-ed22-4337-90df-f31d42156951.wav
+data/words/view glass/360b954a-18f4-4b16-bc8a-d8bb4721096e.wav
+data/words/view glass/ce357296-4d92-42d9-9a30-4479be9d053d.wav
+data/words/snowboy/fba27792-1cb7-498e-864d-3bb1f288fa32.wav
+data/words/view glass/78ad2777-e445-4caf-91f7-5b807be801ed.wav
+data/words/snowboy/fc8b003b-f08d-407c-817f-8b5513abd551.wav
+data/words/alexa/91.flac
+data/words/smart mirror/5d736985-4e25-4569-9619-7f418be417c1.wav
+data/words/jarvis/a5303838-ff2a-4bc6-a208-5a318badb131.wav
+data/words/alexa/265.flac
+data/words/snowboy/542d15f5-cf11-4fce-b9f6-bad8c0456b84.wav
+data/words/view glass/78e3f950-d9a6-4c68-8fed-1240f5c763b0.wav
+data/words/smart mirror/0367ab5b-5c4b-4516-8eb0-a9a1d5c849be.wav
+data/words/snowboy/9886a724-4aa8-499e-82aa-3bea0f8a40c8.wav
+data/words/snowboy/8a12df75-e6e8-4448-963d-8f9851133e54.wav
+data/words/smart mirror/77efc2dd-7bfc-4352-937f-b111e3c6e764.wav
+data/words/view glass/ee4829fb-b7b7-401e-afaa-543eddbcbc0e.wav
+data/words/snowboy/d11c172e-dc13-4357-945e-5a29d8b4fe65.wav
+data/words/view glass/aa780a67-8043-401c-b89a-992ce3820393.wav
+data/words/jarvis/51bcb12a-e4f4-41bc-a0f2-529faeb768dc.wav
+data/words/view glass/32e9775a-fafb-44f3-9a62-3ebc09006c93.wav
+data/words/view glass/2480d94c-7a56-41ac-84b3-15891de1ca03.wav
+data/words/snowboy/ba8fd9e1-1ece-4b3e-ad4a-d378761e3159.wav
+data/words/jarvis/f0c45028-1620-4e16-a679-9d38c35cca45.wav
+data/words/smart mirror/37edccb8-e83d-4ad6-96aa-36d2a99b6d74.wav
+data/words/snowboy/b2ffc53c-6c2c-45fd-a3b8-f75620f3aeb3.wav
+data/words/alexa/222.flac
+data/words/view glass/187137e2-5831-4de4-b2b4-31dac63cce9e.wav
+data/words/snowboy/5db7c766-d18e-4446-b701-53f4a6de07ea.wav
+data/words/jarvis/9e66b684-05c4-404d-82ff-e5d79dfbcf52.wav
+data/words/view glass/497adda5-46ae-4df8-87e4-86b7bcf214cb.wav
+data/words/snowboy/19e22d2c-9e96-4b9f-90f8-cc26931da295.wav
+data/words/snowboy/955679e9-7334-4c0d-94b5-c016c8527f67.wav
+data/words/jarvis/8eb8adc2-4dcd-4307-a7e0-d8b10315422f.wav
+data/words/view glass/8bd49a24-765d-49fe-a5fd-0fd2c7b0b59f.wav
+data/words/snowboy/0917d8b3-bae0-403a-90e3-a364eba6e06c.wav
+data/words/smart mirror/813c6388-042f-476b-b460-13bcb9ef504f.wav
+data/words/view glass/92f5b908-afeb-490e-afc7-5217df29fa77.wav
+data/words/jarvis/fd654376-648c-4ad3-bcf5-e5f0f32d642a.wav
+data/words/alexa/276.flac
+data/words/jarvis/ba1ec4db-e3dc-48e0-9c8e-b223456f7ebf.wav
+data/words/alexa/109.flac
+data/words/snowboy/f0debdec-6cdb-4f60-aeb4-a1b5e8ee0c9f.wav
+data/words/snowboy/6ad4e298-20cf-42c4-801f-80f28ff60739.wav
+data/words/view glass/8ad76ba8-6f10-412e-8cf3-24bc70760923.wav
+data/words/view glass/2d39966b-a852-473c-bcdd-28b520c614d6.wav
+data/words/smart mirror/f311b1fe-5ba6-42c3-a18c-4f204d5c3cd2.wav
+data/words/snowboy/94c2e33c-d4f3-4724-b33c-4737d215999c.wav
+data/words/view glass/0b7b3af0-947b-494e-8001-04f157279473.wav
+data/words/jarvis/387baaa5-5535-46ac-a581-9f192e639d2d.wav
+data/words/view glass/315b7fe3-3643-4bba-a887-dd59ba8a8770.wav
+data/words/snowboy/fdc15fda-f3c8-4a96-a9cc-0080e82cb40f.wav
+data/words/snowboy/4da95115-7057-47c4-bf11-f48bd0137116.wav
+data/words/jarvis/03efb4a6-2f04-4433-892a-f4d1a42f33bd.wav
+data/words/alexa/104.flac
+data/words/snowboy/d308c4c4-33a5-4270-9601-dff0e113d6a4.wav
+data/words/jarvis/008a6329-b20c-4cfc-9ad4-9e7034bc5148.wav
+data/words/snowboy/f5f85ce8-8f20-4a97-b007-5cf490548cb1.wav
+data/words/view glass/7ec1df40-ebef-435c-b062-a6603a6ebc32.wav
+data/words/alexa/158.flac
+data/words/alexa/250.flac
+data/words/jarvis/08439df5-f0f4-424a-a027-c94586cc1ed7.wav
+data/words/snowboy/10088998-721a-418f-9a61-978f533612f8.wav
+data/words/smart mirror/65998d34-ec83-4c01-8cdf-b42892788fb0.wav
+data/words/smart mirror/e55efa4b-8af4-4b80-b3ae-4f594b8aa1d3.wav
+data/words/view glass/07f2aaf8-5276-43be-a3e6-295a722cba03.wav
+data/words/snowboy/12de7578-554e-4837-ae80-9d3c4c908a90.wav
+data/words/view glass/003bc806-280c-43f0-80c1-d3cd63c33be1.wav
+data/words/alexa/74.flac
+data/words/alexa/32.flac
+data/words/view glass/d5a6b12e-dd67-4b7f-a0ff-59a633eea048.wav
+data/words/snowboy/ad10a5dc-3752-439f-9b3e-8c448e906459.wav
+data/words/alexa/232.flac
+data/words/snowboy/48799c8d-b922-4408-8236-5e1fc8334bc3.wav
+data/words/view glass/2cdfc6ca-8eb3-4a5d-8169-7d0c2156a2a9.wav
+data/words/view glass/792eb529-884f-42a4-8c5c-af8953753291.wav
+data/words/smart mirror/7fe935dd-c60b-4525-a6f5-5e90fdba7a9f.wav
+data/words/view glass/95cac816-0376-4b02-8c51-d988f035c8fd.wav
+data/words/view glass/2525b5e1-ca12-4cd8-8ff4-3319388653ef.wav
+data/words/smart mirror/c29d37a8-3c5b-4f53-b4b0-2ac6a72c6b14.wav
+data/words/snowboy/f0641f6e-6975-4d63-a113-e489c144f775.wav
+data/words/snowboy/7e821458-4dd1-41e8-96b2-ee0f7584e885.wav
+data/words/snowboy/9ecfc050-6722-4e57-9c7a-4a535e1640c0.wav
+data/words/smart mirror/4922b3b1-d365-45ca-b4e4-2afd1632d44d.wav
+data/words/alexa/125.flac
+data/words/snowboy/9ecab3c0-075f-48fb-b53f-3b31f280dbbd.wav
+data/words/view glass/6614dd03-fcea-479e-85c1-5946c223d63e.wav
+data/words/smart mirror/cf077332-bdbc-448f-b7cc-92a4bee62c7c.wav
+data/words/snowboy/56b5aa5a-9f2e-4872-96e7-c06fe64d7f11.wav
+data/words/alexa/264.flac
+data/words/alexa/83.flac
+data/words/alexa/108.flac
+data/words/jarvis/c54014ba-58a3-431c-b29b-b20346eec0fe.wav
+data/words/view glass/887e6121-492d-44e7-bb94-6b76259dd835.wav
+data/words/alexa/6.flac
+data/words/alexa/119.flac
+data/words/jarvis/bd2f967d-6647-45c5-8a84-c0d1044c37d7.wav
+data/words/snowboy/9d6de004-3042-415b-8987-bb8ef5fe6e44.wav
+data/words/view glass/1c9e8ff4-91a0-474a-87ed-26fd8c14be7e.wav
+data/words/alexa/28.flac
+data/words/alexa/198.flac
+data/words/jarvis/0910b8f1-00f9-4a8b-9f6b-8b88004cc267.wav
+data/words/view glass/e422515f-2db4-4f86-9242-b352faf4e212.wav
+data/words/smart mirror/fc44ec4b-2cca-4ac9-a2f6-0e2a9afbbed0.wav
+data/words/jarvis/c910e7cd-f15d-46df-b0b4-2a7dde8a05f4.wav
+data/words/smart mirror/aae5858c-2ad3-4991-9e8f-e9dde8122523.wav
+data/words/alexa/50.flac
+data/words/view glass/3f986910-4a38-4d26-884f-e52862062ac6.wav
+data/words/view glass/49074c2d-9599-46f5-825d-aad52dc007d0.wav
+data/words/jarvis/23662516-033e-4fd6-a13c-ba23f5eb5730.wav
+data/words/jarvis/00aba123-ae3a-4e0a-8603-9f7277b7d41f.wav
+data/words/smart mirror/2cd06863-aa81-4b97-bad1-85ddc25c3014.wav
+data/words/smart mirror/ac4df0e2-c8e9-4a7d-bf47-13ed0943ef88.wav
+data/words/smart mirror/9e267652-b997-4f01-afc9-ea4c1cf0a4c4.wav
+data/words/snowboy/c32b187f-52ff-4780-a184-395360f4353f.wav
+data/words/jarvis/1c7fce2f-1bb6-4df8-8dda-644f2159047f.wav
+data/words/jarvis/53e82451-baf7-4e6c-b7e0-9472c82eff8d.wav
+data/words/snowboy/031f9b7a-2107-44d6-9720-054ba9de5aef.wav
+data/words/view glass/49a4d39c-23d3-4a11-83da-172c61f3aa4b.wav
+data/words/snowboy/3d3ffc9f-1d1f-416b-a96f-34ed883db5b1.wav
+data/words/snowboy/a2e2aeae-df6a-4cf2-a069-c2c681cb4270.wav
+data/words/view glass/e3a28a73-50e8-46d6-9a56-f4cab6349cbe.wav
+data/words/smart mirror/9f48e0d1-eefa-4509-a236-11a84a7fcac4.wav
+data/words/smart mirror/d1677952-393c-41ef-a9f2-a51caf41f07f.wav
+data/words/jarvis/112d3b6b-4836-4752-b8df-9d649a65ee04.wav
+data/words/jarvis/8285084c-426d-46ec-b977-d805994739f2.wav
+data/words/jarvis/843959b4-9a0b-4963-9ddc-9263c3eeca83.wav
+data/words/jarvis/23e73068-381c-41e8-8398-70b4f9cba800.wav
+data/words/alexa/89.flac
+data/words/snowboy/7240ce9a-cd4b-4cfe-bbbc-73f114315ae5.wav
+data/words/smart mirror/9763abd7-67d1-437b-abf7-75ffa00a6378.wav
+data/words/smart mirror/5f224744-ad7c-4284-ab46-94feafc0cc65.wav
+data/words/alexa/203.flac
+data/words/alexa/80.flac
+data/words/smart mirror/7e1ad901-9dfb-474d-aaf0-329a26145169.wav
+data/words/smart mirror/eb8989f0-c58a-468b-8904-de968ac1d591.wav
+data/words/view glass/5bbdbf15-e249-4206-a2db-59bc177d9d99.wav
+data/words/view glass/72f993d6-df76-44aa-8140-04df0772fdc3.wav
+data/words/alexa/144.flac
+data/words/jarvis/0f597704-ff80-4c39-9ef4-275d70461617.wav
+data/words/smart mirror/d96705df-aa09-42ed-9c40-20940af9f2c3.wav
+data/words/jarvis/ffa85ea2-945c-4ac2-bb8a-ccd821d40389.wav
+data/words/snowboy/21768528-c940-4b26-8377-e1dd3e3a9850.wav
+data/words/alexa/22.flac
+data/words/snowboy/8385c788-13a8-4eaa-8a98-f9c55e74aa64.wav
+data/words/jarvis/85626fa7-b5d6-459f-9f5d-e30c43d9a57e.wav
+data/words/snowboy/9b5ebc7f-c399-4d1a-a14e-703a2fb59d5c.wav
+data/words/alexa/178.flac
+data/words/smart mirror/4f3f58b6-ea4c-443d-b675-757056e25586.wav
+data/words/smart mirror/3d165638-825a-489b-b198-a288c9763990.wav
+data/words/alexa/230.flac
+data/words/view glass/cf1269f9-cfb1-46ce-8c68-95ce75408dc7.wav
+data/words/snowboy/0ef70a25-a15d-4a6a-b092-0ec58845f001.wav
+data/words/snowboy/2bda088e-564e-45cb-bb38-3f03df410523.wav
+data/words/snowboy/95ce0473-ce63-4e78-8b9b-57f0438c6137.wav
+data/words/smart mirror/1de23cfc-9379-4df0-9415-2ba26ecf0984.wav
+data/words/smart mirror/7649cfff-37c4-44eb-8eb9-920516cc287c.wav
+data/words/smart mirror/bd3dba64-8942-4225-ab5a-35f93bef78d0.wav
+data/words/view glass/b125a622-deaa-4f7f-9d64-3dacceccb466.wav
+data/words/jarvis/1a617bc6-f87c-43d7-a0af-d482476276c5.wav
+data/words/jarvis/6caec9d3-499b-4ece-bbee-8247cdced761.wav
+data/words/smart mirror/dde4a812-5638-4add-b924-d785f4636fd7.wav
+data/words/smart mirror/418e6af4-3493-4439-b8a6-d1e8a2f1fb17.wav
+data/words/view glass/d6d6e731-bf58-46b2-9ce8-8be75ee2c68e.wav
+data/words/smart mirror/3a1e9cab-fadd-4a69-b625-f359b5cb2b9b.wav
+data/words/alexa/322.flac
+data/words/snowboy/80a9e679-2196-4fff-8b33-73992b794ecf.wav
+data/words/alexa/55.flac
+data/words/alexa/106.flac
+data/words/jarvis/496a22fe-2895-45fb-93d6-c76a286bfa04.wav
+data/words/alexa/153.flac
+data/words/smart mirror/e9b996dc-794f-4714-a6f4-b96ccee581e8.wav
+data/words/snowboy/ecad169e-d9b4-4a07-bd8d-d9ef52005136.wav
+data/words/snowboy/44788f7e-d3bf-498e-a745-f15ca9ff6ef7.wav
+data/words/view glass/21f8c231-56fb-4e2d-a23c-f9b891414b03.wav
+data/words/alexa/148.flac
+data/words/smart mirror/810cd0cc-4804-480f-be0b-376bb5589812.wav
+data/words/alexa/136.flac
+data/words/snowboy/3e04f351-6829-4af3-871f-d2d7945e4586.wav
+data/words/smart mirror/e4ad9041-ee12-4a2e-a741-c421ef4cf59e.wav
+data/words/view glass/689392af-f03e-49c3-b2cc-7d2bc0f8bc7a.wav
+data/words/snowboy/b0d36c33-661f-4c50-83a2-0bc7e3a2caad.wav
+data/words/view glass/e8be8285-a62d-4383-9b01-1f3d98e0e3f1.wav
+data/words/alexa/177.flac
+data/words/jarvis/3f24b658-b64a-4fc8-af26-12d4fb06dc9a.wav
+data/words/jarvis/53ed4489-029e-4ebc-a3f1-fefefa3e24ee.wav
+data/words/smart mirror/aca97b74-8608-403d-a025-74447a805b49.wav
+data/words/smart mirror/f57896b1-61da-483a-b992-a7d21d8d38fa.wav
+data/words/jarvis/bfb24cbf-6073-4e3e-a3e1-ace1dfe0b27a.wav
+data/words/jarvis/01f13214-d1eb-48b6-8f58-e397731158fd.wav
+data/words/smart mirror/292b897e-f5d0-49d7-8d4a-2913dfa0e691.wav
+data/words/alexa/316.flac
+data/words/jarvis/4ac947f8-62ff-4ec3-adc1-5b0941d28739.wav
+data/words/snowboy/3be09694-becd-4d4e-b35c-ba97e0d46d08.wav
+data/words/smart mirror/50e0f56d-6d0b-4c9c-b3be-aa14b87ce89e.wav
+data/words/snowboy/babf2cb9-aa58-4844-aa84-77eac3c35e28.wav
+data/words/alexa/37.flac
+data/words/snowboy/edec9fa3-47b0-4ee0-9e30-130722650258.wav
+data/words/alexa/314.flac
+data/words/jarvis/adde9f9a-e55f-4311-b85f-933bc4673484.wav
+data/words/view glass/7973fec3-3c42-4fc2-aed8-fa73281268c6.wav
+data/words/alexa/185.flac
+data/words/snowboy/461219d8-35d3-4fc7-85d8-d0f85ffeeca3.wav
+data/words/snowboy/a6c25c7a-9356-45e0-92cd-6d59787ecb1c.wav
+data/words/snowboy/663d56f6-256e-4b55-b8b6-3cf96f434e11.wav
+data/words/jarvis/5f68b9f5-c528-45d5-985a-ef99bf2c8a71.wav
+data/words/view glass/48b60364-7770-4652-97d2-e5ae1487e8fd.wav
+data/words/snowboy/9a1b0fa2-74bf-43c2-9309-e2022912eeb2.wav
+data/words/view glass/e73ca4c0-6a92-4b9c-8192-439286880e19.wav
+data/words/jarvis/632ea8e4-c238-4e13-aa82-5cdfe3667ae6.wav
+data/words/view glass/e4490c0c-7c9e-45b1-8543-ffb0699d7bd7.wav
+data/words/snowboy/320175eb-f01c-4df2-be8c-b5a7c8908d11.wav
+data/words/smart mirror/41c9a98d-81e2-4268-95f7-49c8eb734e6f.wav
+data/words/view glass/ea78797d-eee0-4f80-8817-34a35c6b1856.wav
+data/words/view glass/168ae3f8-be48-4d60-a1ee-81bb5388df1e.wav
+data/words/alexa/170.flac
+data/words/snowboy/3ac67c7d-0b6a-41cd-92d1-454f29a9f431.wav
+data/words/jarvis/5755fcfc-a03c-4620-a43c-7e91535ebc2e.wav
+data/words/snowboy/f49d14d4-5261-4e79-9a9b-095ce9c5c878.wav
+data/words/jarvis/3ef3d569-2f96-47d3-871b-9855283a12a6.wav
+data/words/view glass/5ee63945-856d-4723-a1f3-98d5769ab78e.wav
+data/words/view glass/948179ce-1f1f-44db-96dc-88d3b427f8bb.wav
+data/words/smart mirror/43351229-33af-4e6e-abd6-2c6b0f5e470d.wav
+data/words/alexa/273.flac
+data/words/snowboy/3117be6d-be36-4808-960a-861aaa587132.wav
+data/words/alexa/72.flac
+data/words/jarvis/ab2510aa-b2de-48ce-b2b4-770119e387dc.wav
+data/words/alexa/107.flac
+data/words/alexa/151.flac
+data/words/view glass/c2206996-7659-4489-8d9e-06f1c3f73f26.wav
+data/words/view glass/3edb76ad-252b-4669-8c76-d6ea23d4fff7.wav
+data/words/smart mirror/2dec666f-9b05-46ec-8a96-86a7c2ed1a2a.wav
+data/words/smart mirror/7f393fbd-dbd4-40e0-a91f-295268a932c5.wav
+data/words/jarvis/496086da-278f-4646-9a61-c6feb2129a9b.wav
+data/words/jarvis/6b45b0c2-09e9-411c-b82b-dadfab305972.wav
+data/words/snowboy/53d5b8da-04a9-4444-a9f4-3daeb05cab6d.wav
+data/words/snowboy/755d47c0-31d4-4d03-9a40-68bde575841d.wav
+data/words/smart mirror/8e8a6bee-90a5-4dcb-b041-a56ed22df290.wav
+data/words/alexa/260.flac
+data/words/smart mirror/733bbb2f-0dee-4a47-9030-3459ae1f9acc.wav
+data/words/jarvis/56401f9d-e1ee-42f5-b503-e4286d835037.wav
+data/words/jarvis/360db79c-0fe5-496f-a311-242d6fba93fc.wav
+data/words/smart mirror/0b035f81-5f49-4fb0-ad77-2d66440bb0c0.wav
+data/words/jarvis/0c20da21-b168-470d-9b99-98e2161ed91a.wav
+data/words/view glass/c8f9b5fd-fd58-488d-b391-a5c0293f4031.wav
+data/words/view glass/dd35b5db-0675-49f7-88c8-c2a147184f43.wav
+data/words/view glass/3b16fe7f-d5cb-4dd8-8668-fb4b41ec00f6.wav
+data/words/snowboy/bf7fdf25-43e0-4fba-830e-77b57bef1e6e.wav
+data/words/jarvis/1586e189-e215-462d-b636-06960a91d315.wav
+data/words/alexa/163.flac
+data/words/view glass/b245c3d3-8fde-494f-8ee3-c089a28ff625.wav
+data/words/snowboy/3d2b78b2-1560-451f-aeca-2d0999f27901.wav
+data/words/alexa/81.flac
+data/words/snowboy/ad2c6c1a-1c1b-4ec0-b7cb-7096cb5899cb.wav
+data/words/alexa/130.flac
+data/words/alexa/251.flac
+data/words/snowboy/cb227ef4-2502-41c2-b4d7-dc3672e3b4d7.wav
+data/words/view glass/e5b57e7e-b833-4b89-a69b-6defdb6e2897.wav
+data/words/alexa/7.flac
+data/words/alexa/33.flac
+data/words/snowboy/abe0635e-b4da-4c7f-bbd4-4f6a41874faf.wav
+data/words/alexa/113.flac
+data/words/snowboy/2bad58ea-70dc-43fa-be43-611f462e5f71.wav
+data/words/view glass/8a338e88-76f4-495e-9ddf-b21e44027ce6.wav
+data/words/jarvis/7f42f28f-65fd-4bd7-b3de-8f37e9aab508.wav
+data/words/smart mirror/7f0ac67b-ea9f-41c4-bf4d-1194a4e6bcb3.wav
+data/words/smart mirror/a811de38-8942-483c-8fb8-a929e4f71b90.wav
+data/words/alexa/30.flac
+data/words/snowboy/79fb3337-a6ab-4f3c-8cd2-21ab3f209116.wav
+data/words/view glass/5baf1f44-c29f-48c0-803b-2946a58b8b53.wav
+data/words/jarvis/b9ea6a7a-bb73-4a09-9a53-ebf4327106e3.wav
+data/words/snowboy/430c2823-0b08-4d9c-9aca-895087ce706c.wav
+data/words/view glass/5db7e262-e455-4ee0-8772-6d95afb6c117.wav
+data/words/smart mirror/bf31f919-3266-4d7c-9b07-c314c73e9161.wav
+data/words/smart mirror/baac25af-d44c-4144-b985-d03e6c430515.wav
+data/words/smart mirror/db4c8a46-5421-4262-8f20-c3446a5fac65.wav
+data/words/snowboy/6f71e04f-5454-47d9-b913-51a9d8c90cf5.wav
+data/words/view glass/dfeaba9b-4a33-42e8-a1cf-322af928af42.wav
+data/words/alexa/248.flac
+data/words/view glass/b98ffea5-bcaf-4eb0-9e5c-809d624dd5b1.wav
+data/words/view glass/5ad2b179-80a6-4cd4-a9cf-b03b50c68b3d.wav
+data/words/smart mirror/8055c1b0-f50a-452a-bde1-0f836b02d765.wav
+data/words/snowboy/fe6dd31e-ea96-451b-a6db-759c5025d3e7.wav
+data/words/snowboy/108d7d40-0deb-4780-8e8d-2bcf9d0f775b.wav
+data/words/jarvis/9245cf6e-d152-43a9-975a-c4221015532e.wav
+data/words/view glass/5b2938f4-d04a-4975-ae06-e084eba33577.wav
+data/words/jarvis/b23cac63-8222-479d-82de-afe3bc105064.wav
+data/words/snowboy/8ef47e3d-a733-4d38-80ee-11558a6fd692.wav
+data/words/alexa/229.flac
+data/words/alexa/283.flac
+data/words/snowboy/9d1a535f-cecd-4dae-91d9-4ffa8ae53106.wav
+data/words/jarvis/54d20a90-1398-4175-ac1b-92a480af2c85.wav
+data/words/snowboy/d23421d1-2069-4144-90b7-18cc279c6758.wav
+data/words/alexa/191.flac
+data/words/view glass/82ca5058-cf52-4160-8346-df290fec3ce4.wav
+data/words/snowboy/8a8aab15-735b-4a23-a3c5-437c6d6a2de0.wav
+data/words/view glass/19fd7d22-1e1f-417a-9fd4-ba33ff03ba2e.wav
+data/words/smart mirror/c93896ce-dbbe-42b3-b5d5-d30ee6a9b709.wav
+data/words/snowboy/78249410-6481-4d0f-a4af-3ccc79a29c5b.wav
+data/words/alexa/301.flac
+data/words/alexa/244.flac
+data/words/jarvis/e457f8f7-0ac6-47bf-bf73-baf9144ea904.wav
+data/words/jarvis/8f89123e-1892-4078-a323-075a3e26dc6a.wav
+data/words/view glass/3df75736-809e-4c20-a3f3-61934702b612.wav
+data/words/snowboy/37c397c4-903c-4458-8eda-3853248ed83d.wav
+data/words/snowboy/2854c007-af73-4fa5-9119-51847c895853.wav
+data/words/snowboy/a1cd34a6-3ffa-46a6-890b-07084d637185.wav
+data/words/jarvis/dfc12fd7-5050-497f-9f29-762ff59aa549.wav
+data/words/smart mirror/9cf02017-4191-43d1-820d-dcce4b795b37.wav
+data/words/smart mirror/c9a4d09b-320e-4801-bcd5-fe46693b5fae.wav
+data/words/alexa/287.flac
+data/words/alexa/149.flac
+data/words/snowboy/066f43c7-5732-4471-86e6-c37a8fda484c.wav
+data/words/smart mirror/4c20e0b6-b8e3-4f5c-9cbd-3ad92d80acf5.wav
+data/words/view glass/6c2b2bde-f176-4387-8430-4b25e35cd884.wav
+data/words/jarvis/582b9a3a-116d-4bd1-91ee-85797a6f2afd.wav
+data/words/jarvis/ce743663-a122-4991-be01-069bac7c7eff.wav
+data/words/jarvis/abe7b273-9e13-4a10-9920-1ee2c33ed2fc.wav
+data/words/view glass/02b753b7-9e41-4353-8a51-34599ef0b392.wav
+data/words/alexa/256.flac
+data/words/jarvis/00c476c2-9e01-40df-96c8-a5153db5b157.wav
+data/words/jarvis/33e29dfc-df12-4169-ac99-b8b34b96c483.wav
+data/words/view glass/cc19ee62-02ce-4c52-b35d-2326735458e1.wav
+data/words/alexa/165.flac
+data/words/view glass/16b01883-e993-408b-8297-0b86f172f0e5.wav
+data/words/alexa/218.flac
+data/words/alexa/0.flac
+data/words/view glass/d3eda7ab-a8b3-4760-9005-fbb0d3a145d1.wav
+data/words/smart mirror/ea142247-ac54-45c8-bc4c-828930656b38.wav
+data/words/alexa/35.flac
+data/words/alexa/9.flac
+data/words/alexa/295.flac
+data/words/jarvis/31595eac-080f-4f19-844b-32ae18d2baf0.wav
+data/words/smart mirror/f713d778-81c8-474f-b045-8e2d62a3199f.wav
+data/words/snowboy/434da29f-c6c1-482b-bead-e6b4f4bc88b6.wav
+data/words/jarvis/ad750278-ee14-4755-8939-f043dbe6afe5.wav
+data/words/jarvis/fb9641fd-aeb3-4c33-8449-a01dc7e4165d.wav
+data/words/jarvis/27f42415-b17b-4ae6-9fb1-0b4d2e6cb288.wav
+data/words/jarvis/3e97fe26-19d5-4ef3-9fea-5d51bdef981e.wav
+data/words/alexa/237.flac
+data/words/smart mirror/fd25e9aa-fae7-4d4e-ac38-a1d9ddb577bb.wav
+data/words/alexa/231.flac
+data/words/snowboy/222cc9bd-83b2-4c6d-96fb-61b90caeedb0.wav
+data/words/snowboy/3ce1d101-174a-405a-b967-d3f5bfa0f4fe.wav
+data/words/snowboy/4a126fc4-b090-4fd4-bf31-1ca9bdc64863.wav
+data/words/smart mirror/99990f52-6511-45de-a412-1e9399fa2f93.wav
+data/words/snowboy/78f3a99c-26c0-4ba1-b2ce-0239230ca613.wav
+data/words/smart mirror/a86644c3-cee8-44a7-b0b6-0098787bf1cf.wav
+data/words/jarvis/cc3654c0-7b9b-4fe4-9f92-e1b57e405801.wav
+data/words/smart mirror/82dd3edc-e351-42df-af71-3f042fdf3cb8.wav
+data/words/view glass/5db6aa68-d6b1-4241-b061-24cd8be032a8.wav
+data/words/snowboy/7c20f5b2-120c-47db-bdf5-e6b2e7f1c3b2.wav
+data/words/snowboy/aeb623e0-1082-4583-acf2-32aa32fb0525.wav
+data/words/view glass/2435736f-84fb-40a1-995f-bf350594afd0.wav
+data/words/view glass/e79aa67d-3896-4437-9883-d3d70495ac74.wav
+data/words/alexa/298.flac
+data/words/jarvis/ab88332c-ff54-4ce7-a461-e8797c513b1f.wav
+data/words/snowboy/5db6abab-58c0-422f-bf81-c2caa3df8c11.wav
+data/words/snowboy/5202d8e7-207d-469c-9673-6ee3221e89e7.wav
+data/words/snowboy/7cad089f-783a-487e-aff6-233f3958c736.wav
+data/words/snowboy/d4c5b21c-6688-4cf4-8749-dfb87c160a6c.wav
+data/words/jarvis/045a1770-c17f-45d9-993f-19d163ba0016.wav
+data/words/snowboy/de54c55d-add3-4068-954f-45d4bf65297f.wav
+data/words/smart mirror/af9dd7aa-2a33-4356-ab4e-c9f0b40d4eae.wav
+data/words/alexa/5.flac
+data/words/view glass/6da19dfa-a987-487d-bbc7-44bbd0c6bff3.wav
+data/words/smart mirror/d437f69f-e160-445a-9284-84bbe0f154ee.wav
+data/words/view glass/5a461329-00c0-4fcc-bcfb-ccfd7a9c73bc.wav
+data/words/jarvis/2833ff08-ba81-4be0-af5c-ce98f39c1d86.wav
+data/words/smart mirror/eedd6aed-1500-4d06-9b83-80c9998188d1.wav
+data/words/alexa/19.flac
+data/words/view glass/07ee57ac-6461-4025-a691-5cfc490ee37e.wav
+data/words/snowboy/a01d47cf-fbb9-4790-9d91-49ca16d37815.wav
+data/words/jarvis/90749585-5256-4c75-8d16-d04fb8a89a0b.wav
+data/words/smart mirror/1ed0ed8e-881f-4b54-9724-d0c2b81b0165.wav
+data/words/smart mirror/4df6ae39-a00f-411a-bfe4-74d7601de431.wav
+data/words/jarvis/84ca490d-a3e2-4c0f-8490-674231f9140e.wav
+data/words/jarvis/6f9f3fc6-6bfa-42bd-a004-dd2a08ced32c.wav
+data/words/view glass/68b54a7a-c496-4585-bb20-4c84225441a4.wav
+data/words/view glass/5496f938-bdc4-48dc-81bf-1755e1d6f1ae.wav
+data/words/jarvis/7074a8b1-467d-4cc9-8d49-dc4e98df5cf6.wav
+data/words/jarvis/6e91b130-79a7-4d82-8c2f-8153bca7fe40.wav
+data/words/view glass/3d728bc5-b04d-45cf-af6a-8e83786b444e.wav
+data/words/snowboy/d978f72c-0aef-476a-b3bb-0273c5eebfed.wav
+data/words/view glass/35dc6e62-126a-4713-a727-bd7db60a4c0b.wav
+data/words/jarvis/084abe42-c10d-4473-a643-ffb996836d7d.wav
+data/words/view glass/c2638080-4ea6-4b47-b639-38341f73b7ed.wav
+data/words/snowboy/5923fa6d-5905-44c1-9ac4-07a866f8f572.wav
+data/words/snowboy/fda6b93f-8bb2-4719-87c6-a9e1fdfc5440.wav
+data/words/view glass/bc173a66-d886-4652-a01a-38e5843c2b23.wav
+data/words/view glass/5c0171b1-783a-48fd-9969-dc4bac3707e7.wav
+data/words/smart mirror/8f4eb557-3a83-4d3b-b817-17cdf3849f89.wav
+data/words/smart mirror/97692fe4-a6dc-449b-81d5-a4d4c3a7d5f4.wav
+data/words/smart mirror/662e1a51-9985-41b9-81a6-cc5ef71ace56.wav
+data/words/snowboy/5d3a88f4-3fa4-485e-8d3f-32d7ab963480.wav
+data/words/alexa/135.flac
+data/words/jarvis/4c157278-ae58-4de1-b441-651df95484e9.wav
+data/words/alexa/84.flac
+data/words/alexa/161.flac
+data/words/jarvis/ef111e16-0026-4539-a967-4b0375907c4b.wav
+data/words/alexa/228.flac
+data/words/snowboy/423b73d0-e1f3-4c66-9ac4-855f0fbc4983.wav
+data/words/snowboy/23c421f3-4e4c-4a04-8c43-513259d4a158.wav
+data/words/smart mirror/945f69cb-8cf3-49c1-8495-a71189a86a6a.wav
+data/words/smart mirror/a707c898-a222-47cd-98e7-c65fdae1f382.wav
+data/words/view glass/9bd3b968-eda9-4549-b260-50c1c8d58b44.wav
+data/words/jarvis/d1cacc62-e87f-4e3a-a753-b7859a5c7c3f.wav
+data/words/snowboy/480a93dd-632f-4f46-9e20-5a1d4f14f7ec.wav
+data/words/snowboy/7ed4db4a-d3e3-431b-a0af-49fd7ff74e0a.wav
+data/words/view glass/7e3f1a7d-9863-490b-bd56-62e02d9da2e3.wav
+data/words/snowboy/7e1b0acf-45e9-41d7-899d-f12ff82c22c8.wav
+data/words/alexa/173.flac
+data/words/jarvis/1f3a351b-7bc8-4175-8b1d-1e5a9fea2a92.wav
+data/words/jarvis/83066f7d-6e90-4956-9c1d-2fe180f76c6b.wav
+data/words/jarvis/e319e610-57ee-47a6-a0bf-166111095360.wav
+data/words/snowboy/0181c9ba-e1b2-44d9-9ff1-87df7076369a.wav
+data/words/snowboy/9ddca9ce-b074-476a-b991-fd989b91aa02.wav
+data/words/smart mirror/1a5cd0d2-ba5e-4d27-a042-49cd4650262c.wav
+data/words/view glass/c6f92b0f-a558-4884-93bd-410a0a74afea.wav
+data/words/view glass/cf03b488-b8c9-4f0b-ac8e-cd77b06231c6.wav
+data/words/snowboy/d7161c49-441f-4a68-8fdb-9a44b8496994.wav
+data/words/jarvis/7d153c30-52a3-4d18-9511-8d92ebd51827.wav
+data/words/smart mirror/3deb24b9-baf4-4f1c-9d75-e225a936a73a.wav
+data/words/snowboy/35367963-d3ef-4f2b-931b-459b68874bc1.wav
+data/words/jarvis/317d042d-33f8-469b-a7d5-cbc91382ea60.wav
+data/words/jarvis/9b9c1bbd-f7a1-4986-a432-e665531d34f5.wav
+data/words/snowboy/31952c48-bfcf-4e9d-b967-16813a52fdb5.wav
+data/words/jarvis/1183a16a-2053-4f31-b3fe-55a8d9bea13d.wav
+data/words/alexa/137.flac
+data/words/view glass/62381693-cd0d-4949-9428-7c2851183e7c.wav
+data/words/jarvis/f9ad8c83-7192-4808-91d3-4576f19bac2b.wav
+data/words/view glass/f92c9925-798a-4051-9b71-1692f8109cd6.wav
+data/words/view glass/7eb76be8-237a-465b-93e6-e522859ad593.wav
+data/words/alexa/26.flac
+data/words/smart mirror/129dcb79-d684-4741-863b-e85a547c0922.wav
+data/words/smart mirror/e41452b0-c01e-4806-934f-2ef39af04b07.wav
+data/words/view glass/5e63b429-fd9a-4e40-a2d3-650304e7fd7b.wav
+data/words/alexa/146.flac
+data/words/smart mirror/334a4a1f-bae6-4cde-8ef5-1d3af6d32cb0.wav
+data/words/view glass/156decf3-d193-48b6-9390-5c0be65596da.wav
+data/words/alexa/134.flac
+data/words/jarvis/21f707cb-1a4c-4bdc-a183-48173cc71c17.wav
+data/words/alexa/236.flac
+data/words/smart mirror/bc763a55-8194-4440-beec-28526301a2bb.wav
+data/words/alexa/188.flac
+data/words/view glass/599f8f1a-20c1-4ea2-9323-e42aa88a3773.wav
+data/words/alexa/193.flac
+data/words/view glass/fa9427e0-98f6-4783-85a1-06ee105488ea.wav
+data/words/snowboy/08903689-dfd7-49d2-9fd9-8e248ba7b218.wav
+data/words/snowboy/5c2f388b-5ac0-48e6-b173-b0a73f9024c4.wav
+data/words/snowboy/81be64eb-efea-4c5d-a725-9c33452370c1.wav
+data/words/jarvis/c7b536ec-aeee-437b-8f6c-cc2695aac08d.wav
+data/words/smart mirror/4d30d474-955d-406a-aa1f-74a1493e4e64.wav
+data/words/smart mirror/3078bf7a-5884-4e2c-9cfb-ea97e790abfe.wav
+data/words/view glass/694e94bd-fbdf-4926-9bca-bb86e08f41b2.wav
+data/words/jarvis/3543d60f-7491-4832-8a91-7d0e4084d625.wav
+data/words/alexa/296.flac
+data/words/jarvis/2d131567-e12f-482b-97de-779d34d58391.wav
+data/words/alexa/209.flac
+data/words/view glass/298ec282-8b6e-4be6-8d9b-6e07ed541f54.wav
+data/words/snowboy/3b5cab06-40af-40be-bf9b-98a2db8ee024.wav
+data/words/snowboy/eb506ad5-4613-4b5f-b6ce-ce376d54d3ac.wav
+data/words/jarvis/d1e423b3-d53d-4e44-bb9b-de7b7e03e49f.wav
+data/words/smart mirror/2e780c42-f89a-49ea-a0ae-3f12571055b6.wav
+data/words/alexa/78.flac
+data/words/view glass/3624c7d6-f10c-4beb-963e-40b2ddaca717.wav
+data/words/smart mirror/525c0e29-6783-488f-9068-8ab7c05693ba.wav
+data/words/alexa/300.flac
+data/words/smart mirror/80e25f11-ec68-489a-a350-6413b1b8b196.wav
+data/words/snowboy/502f943e-85d9-400f-b734-658dd0e62925.wav
+data/words/snowboy/d463ac0a-1aee-47cb-80c1-a26afdd83aff.wav
+data/words/jarvis/7cd7a4a7-5d09-4463-b46f-c37dca0eac42.wav
+data/words/alexa/328.flac
+data/words/view glass/372ff2cd-87eb-429b-9a2d-c817b1811794.wav
+data/words/view glass/f70c5475-4b5c-46e9-a5db-d0e08a863592.wav
+data/words/jarvis/b8d108d0-3c9d-4838-840e-7dc2541c3f3a.wav
+data/words/smart mirror/c8d4a4e6-6dab-4f34-9067-5be260752d9c.wav
+data/words/view glass/1542b7de-4bd6-494b-9120-895d22b91fd4.wav
+data/words/view glass/630bbd61-0ee5-4c71-bf7a-841506ab70fa.wav
+data/words/smart mirror/105a7b70-2af2-4371-8140-ae5c52c1a604.wav
+data/words/smart mirror/53e1feae-3b9b-4092-81a2-e4afb4064d38.wav
+data/words/jarvis/e8e6d1f8-6730-4f3a-a9f5-abf033ab2c83.wav
+data/words/alexa/95.flac
+data/words/jarvis/7e139bd8-d1db-4d4d-b07f-90167c7871f9.wav
+data/words/jarvis/d80d7e9c-4d02-4116-8e16-376d372285c3.wav
+data/words/alexa/281.flac
+data/words/alexa/145.flac
+data/words/view glass/a2feb250-e59c-464f-9533-924f12a7b853.wav
+data/words/jarvis/a9790688-4002-4a6f-a375-70a655e3aa36.wav
+data/words/alexa/92.flac
+data/words/snowboy/534f4a95-31ce-4a6a-b4c9-8aca64b0353f.wav
+data/words/snowboy/784d1168-fac0-4854-b407-3d52637e1d0d.wav
+data/words/snowboy/2900e191-e207-4e73-9dbd-49b0f4b93352.wav
+data/words/view glass/fa67ffe8-7407-49f1-9039-b69cc5634134.wav
+data/words/jarvis/cab692d9-a132-4a91-8db4-fc7881376bcd.wav
+data/words/alexa/207.flac
+data/words/jarvis/ae71e9a3-1aef-40e6-85dc-4a090e5dd6a6.wav
+data/words/snowboy/3193ccee-7c59-4ca6-be5c-9637fc0957cd.wav
+data/words/jarvis/0949c233-f574-48b1-aef9-59c3f64f16a4.wav
+data/words/jarvis/a80f86ac-02fb-4f25-9069-bc08719070e8.wav
+data/words/view glass/30d301b1-d555-43a4-9850-9bc4e4ce4bbc.wav
+data/words/smart mirror/2d005b74-9c68-43a3-87f7-f83d8d626220.wav
+data/words/alexa/2.flac
+data/words/alexa/156.flac
+data/words/jarvis/03cbb7ba-8e69-4f6a-b289-32ed4b686417.wav
+data/words/jarvis/caab5aa6-2751-4a84-809a-1e9b714807a9.wav
+data/words/smart mirror/4c724e9c-ac9d-438e-9bbf-cba074940c38.wav
+data/words/alexa/131.flac
+data/words/snowboy/6e6addcd-524d-4a62-9263-515288a4c20a.wav
+data/words/snowboy/2a4c9326-e5a5-447e-998c-2a617432f3b5.wav
+data/words/smart mirror/a7954bd1-52df-420f-b3ee-1bdb4e42aa83.wav
+data/words/snowboy/a48121b5-01ff-4601-a3b5-5eca3b398272.wav
+data/words/view glass/0a9121c4-8a1a-4833-9e09-4aa258fcfd65.wav
+data/words/smart mirror/0a3576a1-8a31-4e09-b340-474243fdf1c7.wav
+data/words/alexa/214.flac
+data/words/view glass/0ee5cce9-0147-4115-ad3f-b33bc13e6adc.wav
+data/words/alexa/259.flac
+data/words/jarvis/ae2a4c17-9059-4b0a-a064-59e181b41dbe.wav
+data/words/snowboy/aeac714e-f38b-435f-9b3b-b72196e2d842.wav
+data/words/smart mirror/d14a78a9-9a93-4454-b121-9ceb569a805b.wav
+data/words/jarvis/98c36379-a45e-4de7-8a3d-982bbb69cdd9.wav
+data/words/alexa/261.flac
+data/words/snowboy/f3fc17b5-45f0-4158-9bf6-ed9520af4cb0.wav
+data/words/alexa/47.flac
+data/words/snowboy/1a833b24-26c5-474d-90e8-493c499ee02b.wav
+data/words/jarvis/49c9897b-862f-465b-8ed4-ad9520086254.wav
+data/words/jarvis/69955787-5969-48b5-985d-6d56def44576.wav
+data/words/view glass/c92b3a9a-67a7-4b1b-8ced-072e8aa864f8.wav
+data/words/jarvis/63799bd9-3e02-4ef5-905b-6922182f9d78.wav
+data/words/jarvis/c0448dba-035b-4732-9a5f-51d81711e8c4.wav
+data/words/snowboy/568290d7-b64d-4b3e-bee1-3e2a1cb98388.wav
+data/words/alexa/70.flac
+data/words/alexa/94.flac
+data/words/snowboy/78ed40d6-6d82-47ab-8f47-ffd878b2c90a.wav
+data/words/smart mirror/87f843a7-30a1-43a9-917f-b0ad458d5600.wav
+data/words/jarvis/474e81c6-7ca8-472d-af28-ca1364b8019e.wav
+data/words/alexa/66.flac
+data/words/view glass/da179103-1c4a-45cb-b05a-f5374c79b1ac.wav
+data/words/jarvis/f6de711b-569b-4087-b7f4-5ae0a0f110d4.wav
+data/words/smart mirror/ddcf59ed-4a92-447a-87e5-f3425e2d3b70.wav
+data/words/alexa/272.flac
+data/words/jarvis/61723bdf-d44c-4b30-b5e0-69682bf28189.wav
+data/words/jarvis/e016c325-6336-4c4a-9045-ef09d1cb2857.wav
+data/words/smart mirror/c00df58d-94c0-4dd8-b129-d84875a3c62b.wav
+data/words/alexa/10.flac
+data/words/alexa/24.flac
+data/words/smart mirror/64bbb93d-7f39-4033-a26c-4b224d2d6825.wav
+data/words/smart mirror/961ca910-9114-427b-b1f5-01094e1ea921.wav
+data/words/smart mirror/2f4ebd66-ba04-4ddf-a221-81f9fe30fb57.wav
+data/words/jarvis/06588515-61c9-4946-8f2b-6d00a2a026e7.wav
+data/words/smart mirror/a11c94b6-b86f-4508-bbf0-34324360c81b.wav
+data/words/smart mirror/57097a7d-f00b-4128-961e-5483add91a1e.wav
+data/words/snowboy/997347b7-3ac3-4b49-8e3a-6106e80ffe08.wav
+data/words/view glass/08c04c71-3e58-4e0b-a72e-94a478589831.wav
+data/words/view glass/0def0e47-6d0a-451b-b083-ed0fccf9b7e7.wav
+data/words/view glass/c40c22b0-204d-4404-b98d-2f2811d0b7fb.wav
+data/words/smart mirror/882fdc9d-fc43-46c7-b11d-fa82fd2ae027.wav
+data/words/alexa/23.flac
+data/words/jarvis/dd715160-a2df-483d-ab1b-8df750dbc2e4.wav
+data/words/smart mirror/0562ef94-cfa2-49c1-a30d-0d0b96e56f63.wav
+data/words/view glass/da308352-fa40-4af4-b926-b82fc53e55b8.wav
+data/words/smart mirror/b4ba12b1-94f0-47de-a241-6b343f1dff60.wav
+data/words/view glass/e69878b9-2daa-4595-8759-de054f51b7f4.wav
+data/words/alexa/58.flac
+data/words/alexa/294.flac
+data/words/smart mirror/552013a3-4a14-48d4-bb72-b24199712a38.wav
+data/words/jarvis/0545db98-2cef-4b6f-8ba9-50410904e4fe.wav
+data/words/snowboy/823e9df4-a24b-4f81-9f22-cb768799be3a.wav
+data/words/view glass/ea965812-95ca-4cdf-b914-34ec3c31c98b.wav
+data/words/view glass/45475f27-eb63-44f7-8625-2bbf175d5d9f.wav
+data/words/jarvis/2970fa10-5f2d-4270-afde-6a48099e809f.wav
+data/words/jarvis/d2f5962b-6b63-4721-a690-98384c5d2afa.wav
+data/words/jarvis/202e7e82-4b02-4777-b8c5-44bc8378761b.wav
+data/words/alexa/262.flac
+data/words/jarvis/e854d83d-6b3e-4fe8-b48c-32523d96993f.wav
+data/words/view glass/d6d0962b-a4af-4e31-87ac-bde93e20c6bf.wav
+data/words/smart mirror/f718a737-8b28-4b73-aead-d4488eb5a878.wav
+data/words/smart mirror/bf3e19c0-e831-48eb-bfa9-2e28f855a3b2.wav
+data/words/alexa/238.flac
+data/words/snowboy/d570bac0-8212-4424-98cd-48c07d9d996a.wav
+data/words/snowboy/971ffd69-3cef-4ec7-a6a4-9d9773f407f9.wav
+data/words/jarvis/78161073-bf9c-4c85-9bfa-4b2bbd7a95f8.wav
+data/words/alexa/326.flac
+data/words/alexa/196.flac
+data/words/snowboy/0ef79cb3-937a-4cf7-9c80-8f090c553e09.wav
+data/words/alexa/14.flac
+data/words/smart mirror/bb297a14-5d0a-492b-999d-79f2b525d022.wav
+data/words/snowboy/6db5ba65-fa56-4b82-a1cf-b481ebf3aec8.wav
+data/words/view glass/70fff6b8-20ed-4dc0-a9fb-feaf56ba6822.wav
+data/words/view glass/4a9dd157-84cf-4343-b84f-4ae29e0672cb.wav
+data/words/snowboy/2b17616b-be10-4ebc-9b62-586728fa869f.wav
+data/words/jarvis/9a91457c-6eb2-4e78-a6a2-63a19295545b.wav
+data/words/snowboy/00927c6f-0043-43d2-8b39-6174019c584f.wav
+data/words/view glass/11bbfaaf-ec24-4833-887e-5a469395392d.wav
+data/words/jarvis/e40d19e7-b170-4b9d-b2e8-33ead275de10.wav
+data/words/snowboy/4ecd2fbe-b0c8-4595-a26f-af89b5a1b06f.wav
+data/words/snowboy/e7c8aade-bd6a-4f05-b044-2f5597afa473.wav
+data/words/alexa/111.flac
+data/words/alexa/56.flac
+data/words/view glass/39106e63-0089-4ac7-a7b0-0525ea767206.wav
+data/words/jarvis/87d03b48-0746-48ff-98d6-1bdcec731d9c.wav
+data/words/snowboy/7040b0c0-3aad-4ea0-bda7-d4d07f124ca8.wav
+data/words/snowboy/e698579a-205a-4abf-9373-ec8db166177f.wav
+data/words/alexa/126.flac
+data/words/alexa/289.flac
+data/words/smart mirror/17a51783-1c4c-410e-9af1-0e340c587eaf.wav
+data/words/jarvis/09137f17-797d-4586-9709-02c43c51b156.wav
+data/words/view glass/dcd008e0-7d6f-43c0-8f21-0517ba9d5879.wav
+data/words/alexa/174.flac
+data/words/smart mirror/9782acd8-4b3c-4c3f-a206-ef12935eed4e.wav
+data/words/smart mirror/98e0902d-b3b1-4341-810b-47d18bc5c58c.wav
+data/words/alexa/278.flac
+data/words/smart mirror/2866e31f-ae6a-49db-a846-999823c4b498.wav
+data/words/alexa/90.flac
+data/words/smart mirror/9852c1a4-a7c0-4af9-96a3-be6348925f6f.wav
+data/words/jarvis/c3bb36c3-bd08-462c-b10d-2d9f5b780e4b.wav
+data/words/jarvis/88880097-3259-44de-89b5-7ddb17c081a4.wav
+data/words/view glass/8ddf0ff0-23ce-491f-8000-b6556e4c6f47.wav
+data/words/jarvis/9fea8e65-238b-4937-ba41-211e27d36c49.wav
+data/words/smart mirror/3d220269-e660-442c-a9df-aeb9cf074cad.wav
+data/words/alexa/318.flac
+data/words/view glass/e0985ecb-ab6d-4948-b225-ba2c17944dd2.wav
+data/words/view glass/6f3e800a-2de9-465f-9e7f-a1a2e267cd80.wav
+data/words/smart mirror/96f6fdcb-1320-435f-bbda-bfcdaf870e20.wav
+data/words/smart mirror/d8cf2335-4b93-4e9c-a77c-1b4b2d5ffe4e.wav
+data/words/view glass/32603f43-ea88-4a31-8cb1-7e37a88a8ad0.wav
+data/words/jarvis/df0288d7-5057-469c-96bc-4a5a5452bb11.wav
+data/words/alexa/97.flac
+data/words/alexa/242.flac
+data/words/snowboy/762d9eb7-7fc2-4475-a0d4-a23ede936aa2.wav
+data/words/view glass/9803123e-14c6-4bbd-af71-41dc53db541a.wav
+data/words/smart mirror/24b6dbdd-feae-4063-8067-4531217c97df.wav
+data/words/view glass/71a166cf-470b-4fd5-942c-c655eb5dd7f8.wav
+data/words/jarvis/35bd060d-c07c-40cf-bbbc-dbce3febe4e6.wav
+data/words/alexa/43.flac
+data/words/jarvis/fe73470c-a034-4c6f-ade2-5ed1b0809b6b.wav
+data/words/smart mirror/d5e68537-4dc5-44a6-8b2d-0cbdb2789ef9.wav
+data/words/jarvis/0eb17b69-7f9f-4db5-b68b-2c365cbdd660.wav
+data/words/alexa/98.flac
+data/words/alexa/152.flac
+data/words/alexa/217.flac
+data/words/view glass/75d9310c-b9a4-4cc6-94e0-dd8e9ecdd510.wav
+data/words/smart mirror/85e13da4-e76c-480f-856f-76de0ae05d48.wav
+data/words/smart mirror/2e09ae9f-31c2-4f0c-a2a7-d11ae6a636d1.wav
+data/words/smart mirror/18911492-ef08-442d-8a30-5961e3b319f4.wav
+data/words/view glass/ae422494-6542-4ad5-a4a9-85ae811275de.wav
+data/words/snowboy/f7cd542a-5ad8-426e-9568-d79cef78e56e.wav
+data/words/jarvis/54c68cc7-c976-49a0-89d6-728738e66c35.wav
+data/words/alexa/41.flac
+data/words/smart mirror/1fa7e130-4494-409a-9c58-f38d86360555.wav
+data/words/smart mirror/ba7f743e-0618-40ef-883a-ee14bc51622f.wav
+data/words/alexa/64.flac
+data/words/view glass/dba61b65-2927-4246-ba7b-765216cebfeb.wav
+data/words/view glass/68d924f3-34db-4f47-9ce2-2bfad683fab0.wav
+data/words/view glass/5a468aff-c5c3-4925-b6eb-e829df20cd07.wav
+data/words/view glass/c7975f53-9326-4334-a2dd-6dbd61eae40d.wav
+data/words/smart mirror/2e27019b-9503-48e6-863c-aa5af04807ab.wav
+data/words/smart mirror/c9b30ebf-28a1-45e7-a349-e29ec2c62aac.wav
+data/words/snowboy/49f81ca2-d00c-4eed-8c8f-86fb4d236135.wav
+data/words/jarvis/1ff6be5d-7958-464a-8726-1c268071d77d.wav
+data/words/view glass/7567e05f-4da9-4e73-961e-8f553ee85338.wav
+data/words/jarvis/667c0c0f-f486-4bdd-a6d0-92b0d7aa0e6e.wav
+data/words/alexa/175.flac
+data/words/view glass/38f45efc-a9e3-419f-ac56-cb7e4904503e.wav
+data/words/view glass/639ce65e-5022-4ebb-aefb-f26bdc08a0b3.wav
+data/words/smart mirror/6b60c635-e143-48f4-8de4-b26e52d4fbd4.wav
+data/words/alexa/176.flac
+data/words/alexa/112.flac
+data/words/alexa/267.flac
+data/words/alexa/305.flac
+data/words/smart mirror/8d5f3acf-86ca-4d2d-b588-a22cfd9cd190.wav
+data/words/jarvis/dc664b88-7ffb-4e01-bef4-68328065f255.wav
+data/words/smart mirror/052dba79-0092-467e-bdaf-540fc7abbce0.wav
+data/words/smart mirror/99310638-4b3c-42a6-a573-77fff9051afb.wav
+data/words/view glass/5a4c1efd-358b-4387-9cb1-be38078e723b.wav
+data/words/snowboy/ff296df6-4820-487e-ade5-0b60207a3db3.wav
+data/words/view glass/f2684c70-734b-4111-af09-f9d859144716.wav
+data/words/alexa/166.flac
+data/words/alexa/184.flac
+data/words/smart mirror/9f22d19c-6588-4633-aabc-c030c43873f8.wav
+data/words/jarvis/72f13cef-3ec0-4a06-8cae-ed3bdda8b8c4.wav
+data/words/snowboy/33279bc1-687c-4759-b571-43d3fc68bbcb.wav
+data/words/snowboy/29f8750d-e11e-491a-bcd9-fea843ab2945.wav
+data/words/smart mirror/e271b5e3-027a-4096-bff3-0a4a184df82f.wav
+data/words/smart mirror/17986a30-861c-43d1-9c07-b30554feae21.wav
+data/words/smart mirror/26a58ec0-1e56-4287-b406-a3b68fe2925c.wav
+data/words/smart mirror/792e48a9-3545-4f87-a24c-605003a8d7e6.wav
+data/words/smart mirror/d5626bb7-a0cf-4138-8ccc-dbad7abd34b3.wav
+data/words/view glass/14d0df89-7081-42b7-9c10-112d9fee73e2.wav
+data/words/snowboy/52745dc4-65a3-4e44-911b-571f85a8b77e.wav
+data/words/alexa/215.flac
+data/words/alexa/197.flac
+data/words/snowboy/9d193820-a1e5-4400-8298-58ef56565cf3.wav
+data/words/snowboy/ea54175d-fd36-401b-894b-105462e2c16c.wav
+data/words/view glass/07129c24-3d6f-4825-bc16-3b32f97e82af.wav
+data/words/jarvis/5e80c845-73e1-4f31-a8ab-ff360e8e3c88.wav
+data/words/jarvis/ecf60fe7-196f-4d17-b8eb-43725da4e14a.wav
+data/words/alexa/42.flac
+data/words/alexa/128.flac
+data/words/view glass/2c25a09a-4da3-407f-91d0-0ccf4b5c92ac.wav
+data/words/alexa/309.flac
+data/words/alexa/34.flac
+data/words/jarvis/ef033388-486c-40e5-b1a8-2bfc7baaaaea.wav
+data/words/jarvis/fac8573c-c609-4fcc-9f3f-8b4f7d9f4106.wav
+data/words/jarvis/bcf332d9-34c7-4594-9abf-ac06e8c93d0f.wav
+data/words/snowboy/db92367c-0e80-4eab-a769-7028715fd30d.wav
+data/words/jarvis/c24e61f5-9097-40f3-8735-f71db3d9580b.wav
+data/words/view glass/6eca384e-6b44-44af-9334-bd24047bf50d.wav
+data/words/smart mirror/595c796d-c937-44e6-b1b5-260d0a23db40.wav
+data/words/view glass/f90088fa-0a5d-41d9-9d9b-4a1ee33f5356.wav
+data/words/snowboy/0127dbef-3960-49e3-b6da-6ca8545c6514.wav
+data/words/alexa/11.flac
+data/words/view glass/23ce4693-54f0-4c0c-bd3c-256aedd48f93.wav
+data/words/snowboy/2f76f0ff-4e33-45eb-984a-5c1b98c39a35.wav
+data/words/snowboy/8141901a-a1cf-47d0-8964-f22406625ef5.wav
+data/words/view glass/7659a2d5-e9c8-4bb3-8d7e-22372de832b4.wav
+data/words/snowboy/c0ad595f-8ae9-469c-8803-dbfd6894de46.wav
+data/words/view glass/f746b883-de71-4080-9f74-c9ded997d66d.wav
+data/words/smart mirror/c00843a3-b5d5-4ec4-aae8-4f4aaaa2e2b7.wav
+data/words/view glass/1cd430fe-fe3c-423e-831c-0d5068be99dd.wav
+data/words/snowboy/a357d8b0-3a5d-4557-89f8-fd469ca8f703.wav
+data/words/jarvis/368172e4-2259-4a33-a18e-9e5f4e6f3057.wav
+data/words/view glass/d160547f-b8ca-4b90-a7ba-2b205f9fec34.wav
+data/words/jarvis/b0ada6bd-0356-4ac5-8a8a-fba29e9aaf2c.wav
+data/words/smart mirror/6867412c-93ea-4534-b188-50b8d8348cb9.wav
+data/words/smart mirror/6b8cf45a-ff80-4ba5-a9d2-9fb24b93ba9e.wav
+data/words/smart mirror/60855575-5129-4ddc-9ace-9cb05806cd0a.wav
+data/words/view glass/72e2c78d-c483-4641-a05b-f1f0597e8b0d.wav
+data/words/jarvis/f814c79d-91af-47c0-8788-6b289c34c975.wav
+data/words/snowboy/314e21b6-9d54-472d-8685-67728d852ae3.wav
+data/words/view glass/c4597091-d5c0-47c6-b2a7-52209951556f.wav
+data/words/smart mirror/eb8f58e7-7798-44a0-9d5b-deb5f546a688.wav
+data/words/view glass/68e347e8-6ab7-4367-ab55-35668c012c37.wav
+data/words/jarvis/967ca266-c31c-4fb0-97d6-f24a18292fbc.wav
+data/words/alexa/288.flac
+data/words/smart mirror/3c65b905-5b8d-43d9-87ab-35d3caf06e82.wav
+data/words/jarvis/4e8cbdc2-45ee-457d-acdd-467f23b7ebf0.wav
+data/words/smart mirror/1ab430a2-a76c-47b9-8ac0-9a708ea0a8ed.wav
+data/words/view glass/b1f82ff3-4f87-4f6a-83a0-56f66dd1930a.wav
+data/words/view glass/d095b8e3-6542-49db-ab14-d62e16f5c32e.wav
+data/words/jarvis/a1d9737b-b041-47de-b8da-2a570da6897f.wav
+data/words/view glass/2d1c275c-85d8-4e6d-9938-006404ee4d38.wav
+data/words/smart mirror/d88a9c65-9132-4b00-b116-af77128106f3.wav
+data/words/jarvis/59de3e90-1d4e-4b65-97d7-92e946a04091.wav
+data/words/snowboy/6f178b27-d1b7-4667-8d89-905f5dbf2368.wav
+data/words/jarvis/b432476e-1f17-4043-b4b4-35fa2a1ba7ac.wav
+data/words/view glass/52d51f17-fea0-408e-a831-39a290e1126f.wav
+data/words/jarvis/a9ddea4c-eea6-4dd9-b245-4edc7f6ba5f7.wav
+data/words/view glass/a53ee107-625c-4747-95cb-64744dce9177.wav
+data/words/snowboy/679b8b7d-84eb-4496-913b-ed75772fa818.wav
+data/words/smart mirror/d6a9fb4d-42ac-40ce-9c3c-00ccabd5a3d7.wav
+data/words/snowboy/04289dde-6e45-47db-a908-bbeafa7ad4d4.wav
+data/words/view glass/994bdf28-a6fd-4152-891b-cfe17cfe03a9.wav
+data/words/view glass/db273830-8e1e-4936-a1ec-53b2b368b77d.wav
+data/words/jarvis/ec6c41c8-f431-49e9-9dbb-750c64031f8a.wav
+data/words/view glass/a8f1777d-e907-4a5e-9e72-16640d78728a.wav
+data/words/smart mirror/7fe67fc0-fd96-4d95-9339-3f5636954463.wav
+data/words/jarvis/48187fbe-cad3-4938-949f-954e6d4f05ba.wav
+data/words/smart mirror/31181de2-efa2-45dc-99aa-358112b45f85.wav
+data/words/smart mirror/ff16076f-7480-4735-8901-d5382bea786e.wav
+data/words/jarvis/42bf7531-645a-4492-9e1a-d7f1d5a764c2.wav
+data/words/view glass/2fdb5218-e83b-4bfb-99ef-242a2302181f.wav
+data/words/snowboy/3efeb437-dfd0-43c4-894f-7d4e52cd1f2f.wav
+data/words/smart mirror/6b3cfb7f-abdc-4772-b625-3aba1d1af596.wav
+data/words/smart mirror/c345cae5-e29f-40ac-b0f6-1c7bc9ab584c.wav
+data/words/view glass/0b8d7def-8308-4c35-9d37-42479c67d146.wav
+data/words/alexa/88.flac
+data/words/alexa/46.flac
+data/words/snowboy/97c4ff64-9d4b-49cb-8a7f-758337e5bdcb.wav
+data/words/alexa/181.flac
+data/words/view glass/c60b7015-202e-4543-9f97-28fa59977f50.wav
+data/words/view glass/914ea47a-5dac-442d-a435-6141d6422e01.wav
+data/words/snowboy/ac399f2a-c429-471f-b365-d9315b643fd5.wav
+data/words/snowboy/64637e4f-60f8-4af7-861a-05bed9b43f01.wav
+data/words/snowboy/da73bc7a-6740-48f8-9216-a863d626841a.wav
+data/words/snowboy/ba617328-55cf-432d-9aad-b144dbc46ebb.wav
+data/words/snowboy/bfed46e5-72a8-429a-a406-3d2de0480b0b.wav
+data/words/alexa/307.flac
+data/words/jarvis/87a9320f-df2d-4d37-9e4a-e8c353017854.wav
+data/words/smart mirror/8c583fd4-17a0-4153-99fb-2963a3acd5c0.wav
+data/words/snowboy/d3cd83df-87a9-413d-bd18-856a09a549fe.wav
+data/words/smart mirror/7869867b-f746-4a94-82f7-d35c8be75b4d.wav
+data/words/smart mirror/1e3b4d38-f336-4c41-bbe4-2c98d2c73bfe.wav
+data/words/jarvis/e232e43a-a0b2-4416-9c47-d1d1788fe1cc.wav
+data/words/smart mirror/df067437-f865-43f9-8d4c-2de3ee4cc61f.wav
+data/words/view glass/eb85d3ec-274a-4cb7-90bb-6882d122c6fa.wav
+data/words/jarvis/41601cb7-7612-4ae2-b9fd-c506da8a2415.wav
+data/words/alexa/224.flac
+data/words/snowboy/fa986ed4-7ee3-46ac-9228-1b37ec34e573.wav
+data/words/smart mirror/fd6aa379-c7a5-4935-9077-caafc9be9272.wav
+data/words/jarvis/8fd1dfb2-29f0-423a-8c5a-fd0aa66397d1.wav
+data/words/smart mirror/34387515-770c-4aba-9943-d027ffd0e142.wav
+data/words/smart mirror/b08130f3-c48d-4423-b1ed-2723725ce654.wav
+data/words/smart mirror/93809c1b-4d26-4f56-9325-d5a726217929.wav
+data/words/view glass/434f151d-31a5-4780-a14c-adcfb5ace9aa.wav
+data/words/alexa/48.flac
+data/words/view glass/3aa297f5-da73-464f-b328-d88af3011c58.wav
+data/words/snowboy/c56c473f-a9e3-4604-b4bb-eee290ea4850.wav
+data/words/alexa/25.flac
+data/words/jarvis/e03e2c83-1386-4402-b826-5ae6dbd4514c.wav
+data/words/view glass/19ed668b-c31c-4564-8810-76081b3a4d31.wav
+data/words/smart mirror/0c656950-5d39-4db8-9553-9cf04b0d0b82.wav
+data/words/snowboy/80f47f4c-179c-4903-b65b-92df63314059.wav
+data/words/alexa/321.flac
+data/words/jarvis/8b639ecf-142a-4f72-b64b-7baf968f654b.wav
+data/words/smart mirror/1ad59cda-ccb0-4d0f-8704-38140d727a90.wav
+data/words/jarvis/c89b67b5-02c4-42c4-a8e2-95849a08d76a.wav
+data/words/jarvis/5ff196b6-93da-40d7-99f3-a17dcc9e7f9a.wav
+data/words/alexa/121.flac
+data/words/snowboy/67e0b334-a2cb-4634-85cb-552ec8fa32bc.wav
+data/words/view glass/3dcd4e98-1bf8-4325-9637-5aedd68a6a35.wav
+data/words/alexa/3.flac
+data/words/alexa/61.flac
+data/words/smart mirror/569e7520-9be7-4aaf-82bc-0207aec32726.wav
+data/words/view glass/99597291-e4bc-431d-b49f-517ea970e90c.wav
+data/words/smart mirror/d4ba1b71-1fba-49ec-95a0-b56de5e71d1c.wav
+data/words/jarvis/21a559f4-403f-4153-b41c-d66151a6a029.wav
+data/words/view glass/729f8845-cfe6-4e0d-890e-e5841c84f3f6.wav
+data/words/snowboy/ebd18426-30b2-465d-b5d9-ad8b087f5abf.wav
+data/words/jarvis/e4ae7e28-bde8-4d3d-93e3-39417148cdb4.wav
+data/words/view glass/2d6cbcab-4b14-4ae4-98af-9730305450fc.wav
+data/words/smart mirror/3ab5893d-344e-4ee5-9480-5c7a682e54e3.wav
+data/words/snowboy/11874e00-d382-4e7f-9261-f9b7aa7e100a.wav
+data/words/jarvis/1824fe16-0a87-43bc-8d25-bf30310f8e4f.wav
+data/words/alexa/277.flac
+data/words/smart mirror/4dbfccbc-2aba-4953-a15a-436610084095.wav
+data/words/view glass/40ae0249-8f5f-4be8-a7d7-c56f6cbbd17b.wav
+data/words/view glass/74e8ce9a-ab94-4749-89ec-5bc072954dc7.wav
+data/words/view glass/6187faea-938b-457d-9788-c5f92191d45b.wav
+data/words/view glass/33d40e13-9417-43c2-8f00-0d338b1e8cf7.wav
+data/words/jarvis/8235e90f-b987-4b08-803c-6060dac3aadd.wav
+data/words/jarvis/e2e80bb5-f007-4294-9c5e-da1dd5783c59.wav
+data/words/view glass/7007fd0a-827a-4147-88fa-9dc3ee8bccc6.wav
+data/words/view glass/93085307-6d61-4feb-88bb-3686f33dfe12.wav
+data/words/alexa/172.flac
+data/words/snowboy/4a3805f2-a557-47e2-b002-f9f20db95193.wav
+data/words/jarvis/386db84c-0c39-45bc-88bc-0dba2984fd3d.wav
+data/words/jarvis/a9c1aa72-f841-4702-bf09-cf84af0acfaf.wav
+data/words/view glass/2e1756ef-8a98-4050-8e6e-836e53161753.wav
+data/words/alexa/168.flac
+data/words/snowboy/481db7df-3e64-4737-a13d-3d12a8f77447.wav
+data/words/snowboy/ba6b2dad-5c2f-49c5-befe-85421ef6d0a5.wav
+data/words/jarvis/83e0c6a3-b853-4d72-b4fb-ed5a13779579.wav
+data/words/smart mirror/6b04dff1-a42c-4e6d-8e30-cf89930df533.wav
+data/words/view glass/14a65f48-a8ad-4e6e-9513-b5fe85adef10.wav
+data/words/smart mirror/40d3af4b-71b9-4385-b30d-5010e247ea4c.wav
+data/words/smart mirror/f9b78cfc-756f-43fe-abd1-caed3db88423.wav
+data/words/snowboy/7e76c5c5-32bc-4319-861e-51066590d91d.wav
+data/words/view glass/a5ecc5b3-26eb-4b59-918d-f3027c792081.wav
+data/words/snowboy/183d13d9-196e-4308-816b-a0388eb27094.wav
+data/words/view glass/445a9e04-3c61-43f0-b728-27984f042911.wav
+data/words/snowboy/0ab0b3c1-3536-4730-af58-66f773142eaa.wav
+data/words/alexa/8.flac
+data/words/alexa/102.flac
+data/words/view glass/d8995270-fce2-4a5c-b432-261131825635.wav
+data/words/alexa/52.flac
+data/words/alexa/213.flac
+data/words/snowboy/7cb113e5-c4b5-4289-a50a-1b99fb3b844f.wav
+data/words/jarvis/13bc5ec0-ff81-4221-a970-6b396d63cb21.wav
+data/words/alexa/15.flac
+data/words/alexa/45.flac
+data/words/jarvis/f012b9a7-e6c7-4cb5-8d23-7985f13cc094.wav
+data/words/view glass/5e020ed6-9165-47af-aa8b-216603d59cf6.wav
+data/words/view glass/b2a3c943-f792-499a-aaf2-e35560f7d9b0.wav
+data/words/alexa/269.flac
+data/words/snowboy/32453a70-5b59-4074-8159-c35679de8654.wav
+data/words/smart mirror/0abb1cb6-9c67-41cf-bba8-8c39a953e2e9.wav
+data/words/smart mirror/ef13f7d4-0c86-47de-8f53-dfb8d6b7c786.wav
+data/words/jarvis/9cded2f2-397c-4fb0-a8c0-e0e532ee61ac.wav
+data/words/alexa/284.flac
+data/words/snowboy/d84a8f20-1da9-4b33-90ca-821d1d0fd2e4.wav
+data/words/smart mirror/d48df708-a23b-4790-8438-bb77a65059c6.wav
+data/words/alexa/51.flac
+data/words/snowboy/44bb65c2-c4b4-4a23-9176-3fd1093829c3.wav
+data/words/snowboy/f23f62a6-9e20-4d04-9899-9d952450d34f.wav
+data/words/smart mirror/8a24b851-673a-4709-8739-3830220c1092.wav
+data/words/smart mirror/582727a3-3fe8-4100-a4f5-8f0c6c4d6b10.wav
+data/words/alexa/268.flac
+data/words/snowboy/fa1fd3d4-f85e-4097-9398-1e366a9834a3.wav
+data/words/snowboy/6f9a0301-a062-42a5-bf6b-ed79fb5beebb.wav
+data/words/jarvis/a4d55a7c-bcbc-4ec1-82bc-72c779c96561.wav
+data/words/view glass/39e40a78-5512-4d43-995d-1fca1713846e.wav
+data/words/view glass/2153b3b8-6e13-459e-8eed-cbecd8f700d0.wav
+data/words/alexa/154.flac
+data/words/snowboy/cb9b5f98-ed88-4ab4-aae9-80a50288b0ad.wav
+data/words/snowboy/4d6c863a-fa47-48e0-9d07-5194377c47d5.wav
+data/words/view glass/b695534a-3ab3-4ef6-9092-27f0af54e585.wav
+data/words/smart mirror/d28f2d9f-75f0-4a75-a84d-ad2cb0feade2.wav
+data/words/alexa/159.flac
+data/words/smart mirror/e4cadc12-1d54-4a83-b857-434cb3368ebe.wav
+data/words/snowboy/41acd992-738d-4331-bb2d-93c1838d4b4d.wav
+data/words/jarvis/4fef3db1-c7a1-4b7c-b1c8-ee594d0f9cc8.wav
+data/words/view glass/48885380-daf1-4f4b-be2d-05f4967c9017.wav
+data/words/smart mirror/cd0c53ed-83ec-4d71-9864-232bbdca0cb2.wav
+data/words/view glass/caafe304-f4be-49e7-af5d-5e1c56a84835.wav
+data/words/jarvis/509167e7-fed4-4bee-b2e7-3cdd3affc4b9.wav
+data/words/jarvis/0d7cfa1f-6de3-42f4-97e1-324cda1d1271.wav
+data/words/smart mirror/13c89176-f3cd-4c79-a131-02fceb5d3d6d.wav
+data/words/smart mirror/5a2fdef6-c190-4422-afeb-83aa877fedc8.wav
+data/words/snowboy/2f4501a9-4fd3-42b1-8d67-0984cd72e072.wav
+data/words/snowboy/382fc96d-36ea-4edf-af79-a216b853f441.wav
+data/words/jarvis/55de7a1a-cadd-4566-8c86-71a49e53528d.wav
+data/words/view glass/03bf274c-0781-4c97-8186-9b48469844ec.wav
+data/words/view glass/4ad7da60-7ba7-451b-a3b2-3e9b2e78f3f2.wav
+data/words/jarvis/efad1334-a27d-4b96-b810-b65d801162d2.wav
+data/words/alexa/77.flac
+data/words/alexa/183.flac
+data/words/view glass/02e881dc-ce15-4608-a145-472a886fa0b1.wav
+data/words/alexa/204.flac
+data/words/alexa/139.flac
+data/words/alexa/317.flac
+data/words/jarvis/674484b4-fdd9-409e-b802-dd15d338c513.wav
+data/words/view glass/1f7bd696-1ef5-4aea-9ce2-1d04cd60e0b6.wav
+data/words/smart mirror/7f113928-92eb-4b79-839d-d27cf6bbfe01.wav
+data/words/smart mirror/c3fd576b-a0a1-4cf8-ae40-fcb2185a8c13.wav
+data/words/jarvis/b0746a97-77d2-4cdb-a037-c0db85ff601e.wav
+data/words/view glass/4d75f855-3eaf-47c6-9076-3308a716c907.wav
+data/words/jarvis/771a41b4-3c39-4cc8-a6e9-d098206202f9.wav
+data/words/smart mirror/0eefac6b-91a5-49a6-8bca-2e9bf0c6b477.wav
+data/words/jarvis/d641ba36-1682-45a8-a26c-60fed96a32c8.wav
+data/words/view glass/9beecece-7984-426e-99f4-be7d6f11ecba.wav
+data/words/smart mirror/64ae9458-0dac-4cef-a0f6-2e6361792fd2.wav
+data/words/jarvis/b11246b2-2f91-4af7-95b2-d332d601ecc4.wav
+data/words/jarvis/1c9fda58-050b-4b8f-8289-dd08c3107c8c.wav
+data/words/snowboy/e3895fe9-cc28-4ad2-b29a-050b5ed8dc9c.wav
+data/words/jarvis/00af045b-ead8-4379-9110-c038e0bdd855.wav
+data/words/view glass/fb63d4c4-3640-4a1b-b670-f47a26ab1d75.wav
+data/words/smart mirror/f76018c9-24b2-4a3d-afc6-95d902ed70c2.wav
+data/words/smart mirror/c75eb339-e3cd-4d4b-8907-11476d9d2e47.wav
+data/words/snowboy/b0e62ee7-dacb-4f22-8b1a-63c4effeb2eb.wav
+data/words/alexa/302.flac
+data/words/smart mirror/cfb42389-b12c-4282-a34a-9a8273211eee.wav
+data/words/alexa/303.flac
+data/words/smart mirror/9d9c0988-d0ee-4dc5-b76a-e9ac093f3051.wav
+data/words/snowboy/6e2e3b08-504d-40b3-8c80-0fbde0e71810.wav
+data/words/view glass/29253aee-62b9-4848-871e-b99dd1df1ee3.wav
+data/words/jarvis/e96b1085-a133-41b6-8838-7e3c3ef6c930.wav
+data/words/smart mirror/0a74dd57-3b71-426f-8f80-3e32aeecdf93.wav
+data/words/smart mirror/9829d3e1-6451-4697-afaf-ec731571327a.wav
+data/words/jarvis/4f24debe-4f33-4c5a-a7bb-0cb2e677cb7f.wav
+data/words/snowboy/8fb80fda-ef16-44c6-a102-42bf0b0d4e79.wav
+data/words/snowboy/2fb40c5f-12c4-4cbf-820a-646f15d0019f.wav
+data/words/smart mirror/99e1c5ac-c44c-4e57-a2a1-99112c38eb8f.wav
+data/words/smart mirror/48d2fe5e-c16a-4893-8e24-87aea386a298.wav
+data/words/jarvis/26f97d18-dc09-4dc0-9ba8-0b1c79e808bd.wav
+data/words/jarvis/722d7d22-e9d4-4ea5-a850-07f5894776ad.wav
+data/words/jarvis/83b04c9d-6436-4c58-b33b-ecc1edfddde2.wav
+data/words/view glass/ca0febc1-d1f8-41e4-8f0d-8843e39f4456.wav
+data/words/smart mirror/a0f45d7a-a319-4362-86f2-65b94fec6a40.wav
+data/words/smart mirror/6244fc0d-6a93-42aa-9228-322579806e49.wav
+data/words/smart mirror/d7068f6c-ab0b-41c8-8a60-1731bfd90718.wav
+data/words/snowboy/a9689f4b-7398-40a4-97ea-a432f6da3fd9.wav
+data/words/alexa/308.flac
+data/words/jarvis/e2eaadfa-2683-4ba1-8c7d-fd01fd1e39d6.wav
+data/words/snowboy/9596f843-2b38-49f8-be5f-d4497f128dce.wav
+data/words/alexa/132.flac
+data/words/smart mirror/fbe621b4-ca0d-4f4e-9b07-38d0a2e862ed.wav
+data/words/snowboy/f24f49be-d529-4f80-8542-ac583cf05767.wav
+data/words/view glass/32ea1be1-6a04-47d4-b5aa-e455b83c6bc7.wav
+data/words/alexa/293.flac
+data/words/snowboy/568c518b-8561-4a5a-a23f-f384da22100d.wav
+data/words/smart mirror/4005fdf4-68b6-4e70-8056-03b19667028d.wav
+data/words/snowboy/af8edf89-899e-4e2d-9dfc-dd125067cbc9.wav
+data/words/smart mirror/12788801-6cb9-448c-8946-bb0d7f957bce.wav
+data/words/jarvis/9761fc89-6da3-4232-9980-8e055fa457fb.wav
+data/words/snowboy/e3f6bddd-dd13-4254-adf9-0877c28dc77a.wav
+data/words/jarvis/91c942fe-0017-479a-bf5e-e77a07f24698.wav
+data/words/alexa/99.flac
+data/words/view glass/cfb3b1e9-46bd-448e-a85a-11a68a5727f4.wav
+data/words/snowboy/7b984c32-ba84-484b-85c1-f7269200502d.wav
+data/words/view glass/50fc73ec-a1b3-4c51-867c-2aa5c2466885.wav
+data/words/view glass/f7b4ed36-d903-465b-a998-561cdcf89403.wav
+data/words/snowboy/d03029ee-cb76-4401-990e-39495f2ecd39.wav
+data/words/view glass/fb3b4cb0-eb73-49a0-97f1-de14f9063938.wav
+data/words/smart mirror/7b0d6341-afd9-4a67-afe6-f9a117ad5750.wav
+data/words/view glass/0448b86e-eee1-4975-a064-ebfece3112d0.wav
+data/words/jarvis/23f50a49-e490-4cd9-9abf-836530edb420.wav
+data/words/snowboy/19aaaf8d-cf00-4ac6-88bd-b2a202f56220.wav
+data/words/smart mirror/e5d65dd4-3494-4076-98eb-bc5846a78fc8.wav
+data/words/view glass/f5ac4efe-26fa-4102-a282-8f29b43c6bf3.wav
+data/words/snowboy/eb589231-982c-4ae2-a506-fd1c16d98214.wav
+data/words/snowboy/d0842510-cfcd-44c6-b927-f1e1c07c39a1.wav
+data/words/jarvis/42272baa-2e97-4fd7-94be-f260e7a16818.wav
+data/words/smart mirror/42cae4db-a4d0-4e79-9b61-3ec7c802838d.wav
+data/words/jarvis/6701d274-94da-4c67-a873-48bd42db0b16.wav
+data/words/alexa/240.flac
+data/words/view glass/2857bca9-d797-4fb4-a3a8-962391f8098b.wav
+data/words/jarvis/ffc4dc4d-eb9a-449d-937e-f06bdd1fe668.wav
+data/words/smart mirror/bce58f45-f750-436d-a8e7-8a9d97e5fd94.wav
+data/words/alexa/155.flac
+data/words/snowboy/46b682bf-70d2-46f3-8f23-7392b8f51f54.wav
+data/words/smart mirror/6691a120-c61a-4b74-8952-204ea90caff4.wav
+data/words/alexa/110.flac
+data/words/alexa/142.flac
+data/words/view glass/c84d1d59-f662-4bf1-9d51-b4fd098c5196.wav
+data/words/jarvis/1d3548b5-a5e3-407a-96bb-502037d3b2b8.wav
+data/words/jarvis/d2185c74-cc58-4e16-a4dc-e6431792de75.wav
+data/words/jarvis/3366493d-9e8f-4061-95e3-e967161d1164.wav
+data/words/jarvis/01f46f97-7ea8-474a-9285-13b038477eec.wav
+data/words/smart mirror/280fb0b0-4c43-45f3-8b39-f01da0de6600.wav
+data/words/jarvis/3189a099-c9a6-4e67-92df-69a0acc96a40.wav
+data/words/view glass/79d19048-ba22-4d51-ad01-cc969131bbd4.wav
+data/words/jarvis/7ed47e88-6163-4871-9b9c-0fc1b8024678.wav
+data/words/view glass/1265edab-e49b-4610-893a-03fbf15cbea9.wav
+data/words/snowboy/96da6944-935b-472d-94bc-21321564d912.wav
+data/words/smart mirror/21823d64-5c3f-4d69-8328-03d211ad7bd7.wav
+data/words/view glass/b484c8c1-ebfa-495c-b594-5613e51e45e3.wav
+data/words/snowboy/f53f8832-07a7-4d94-93bf-8a0f97407b80.wav
+data/words/jarvis/e82dc14f-d55f-4c9a-9470-3f59f622dc12.wav
+data/words/snowboy/475ee071-f1eb-411f-bc71-470321391006.wav
+data/words/snowboy/61612a3f-23b0-4816-9022-9422959c9dcc.wav
+data/words/snowboy/1c0df469-04a8-4fba-bc51-e2c4c0351e9a.wav
+data/words/jarvis/3d9eb38c-fedc-4300-aa04-0eae017412e5.wav
+data/words/view glass/b6fa4018-2bd3-409d-807c-81487ceed00b.wav
+data/words/snowboy/d62a3197-0694-4062-b5f9-1ab1910e33d7.wav
+data/words/snowboy/11254847-a9e7-4d80-9e59-6630fc9f8851.wav
+data/words/view glass/5ebf42d8-18be-4974-ae8a-4d4724c95021.wav
+data/words/snowboy/66bc7508-608c-4b74-ad66-57a1b7de227d.wav
+data/words/view glass/c810fc9f-9d8e-4e3a-8037-07bda1ebde42.wav
+data/words/view glass/0dd2ccdf-b7ba-42e6-b044-3506364a7f06.wav
+data/words/snowboy/cb8aa0f4-14d5-4ae4-9bd5-6b4b214b6422.wav
+data/words/jarvis/210fd48c-29c5-4ac3-8084-26031647eb6d.wav
+data/words/view glass/313f4fc4-2634-4d7c-8ac2-f679ab9dc676.wav
+data/words/jarvis/d3d40792-62de-470e-8a78-430ef68e2aef.wav
+data/words/jarvis/26087b86-3c1e-4833-a91b-0d3e31d51402.wav
+data/words/view glass/0b43965b-0fef-4850-9fc0-a62e60801f76.wav
+data/words/view glass/9001631e-9166-4138-ab31-0deb626c38fb.wav
+data/words/alexa/271.flac
+data/words/jarvis/d998effb-3684-41ee-bf23-bbcc42d40e3c.wav
+data/words/smart mirror/bea5a835-b9d6-410d-9828-56125eb91c33.wav
+data/words/smart mirror/71d30269-6582-4986-9764-b9e9cd6244c2.wav
+data/words/snowboy/52efb1f2-21c6-4e0f-a0db-127b3084fe67.wav
+data/words/snowboy/9f6acbb8-f2ea-4290-a87f-5a458f1a44df.wav
+data/words/snowboy/0a455704-286a-4851-82e2-b4f486ba8f21.wav
+data/words/snowboy/69da48ac-ac23-41bd-b956-14d0a07e3a5d.wav
+data/words/alexa/235.flac
+data/words/snowboy/a1144665-9ef3-4528-8afc-5956aa65a14c.wav
+data/words/view glass/235f7854-d7e7-4055-a5f4-c6ae79c0f80d.wav
+data/words/snowboy/952d6f96-2de7-481e-a071-3a8a6155ee24.wav
+data/words/view glass/00bdd121-a0a6-4b1c-9aac-74991193036f.wav
+data/words/jarvis/78ff4bdd-18b5-4011-8588-c10df0a8b583.wav
+data/words/view glass/270fb70f-db4a-4ab0-95ba-1f85bfaa5238.wav
+data/words/snowboy/9e508ba7-4cf0-44de-aaab-3efbe2f600ed.wav
+data/words/snowboy/43999715-1593-49e8-9bc3-badbb081050a.wav
+data/words/view glass/b78cc1f1-9251-4e82-94c7-eeb7754ad1af.wav
+data/words/snowboy/96cc7955-37da-4d85-b73a-82ad0c75bae2.wav
+data/words/alexa/79.flac
+data/words/view glass/fdf4fa99-5644-4fd2-8b98-ac0acce5da89.wav
+data/words/view glass/18f15b0b-bd82-4324-bf92-3effa25a6096.wav
+data/words/snowboy/717b4b05-24d1-4b6b-8990-6e1037d566d7.wav
+data/words/alexa/118.flac
+data/words/snowboy/648594f6-5a7c-4350-9980-e1356efe2ca8.wav
+data/words/smart mirror/479115b8-53d1-4286-b003-6923b0680a62.wav
+data/words/snowboy/b53337ab-3f58-4d05-a103-ae769ce81c58.wav
+data/words/view glass/15b37f70-689f-4dbb-b789-394cddbadf5a.wav
+data/words/view glass/450707b2-f212-492a-84cb-0fb8477937fa.wav
+data/words/alexa/270.flac
+data/words/view glass/ad17dede-ebd2-405f-ae66-98979fab84a0.wav
+data/words/snowboy/0db1a061-59d0-42a0-a5b2-129651054ff1.wav
+data/words/view glass/4160ebe5-4f92-46b0-a45d-385920b490be.wav
+data/words/jarvis/31e5e70c-ed0d-474a-a083-3f17e1b9730e.wav
