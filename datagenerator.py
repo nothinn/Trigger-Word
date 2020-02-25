@@ -7,6 +7,8 @@ import random
 
 import math
 
+import time
+
 class DataGenerator(keras.utils.Sequence):
     'Generates data for Keras'
 
@@ -64,12 +66,14 @@ class DataGenerator(keras.utils.Sequence):
             # Randomly choose background
             background = random.choice(self.backgrounds)
 
-            background, length = utils.load_audio(background,self.samplerate)
+            background, length = utils.load_audio(background,self.samplerate, crop = False)
 
             # Randomly choose two negative words
             neg1 = random.choice(self.negatives)
             neg1, neg1_length = utils.load_audio(neg1,self.samplerate)
-
+            while neg1_length > 3300:
+                neg1 = random.choice(self.negatives)
+                neg1, neg1_length = utils.load_audio(neg1,self.samplerate)
 
             #neg2 = random.choice(self.negatives)
             #neg2, neg2_length = utils.load_audio(neg2,self.samplerate)
@@ -143,6 +147,7 @@ def get_fft(block):
     '''
     Should have 2^n samples for speed
     '''
+    np.seterr(divide = 'ignore') 
     fft = np.fft.fft(block * np.hamming(len(block)))
     return np.log2( abs(fft)[0:int(len(fft)/2)])
 
@@ -216,7 +221,10 @@ def insert_audio_clip(background, audio_clip, duration, samplerate, previous_seg
     
     # Step 2: Check if the new segment_time overlaps with one of the previous_segments. If so, keep 
     # picking new segment_time at random until it doesn't overlap. (≈ 2 lines)
+    t_end = time.time() + 5 #may only run for 5 seconds
     while is_overlapping(segment_time, previous_segments):
+        if time.time() > t_end:
+            raise Exception("Too long to find new segment: " + str(previous_segments) + " Duration: " + str(duration))
         segment_time = get_random_time_segment(segment_ms)
 
     # Step 3: Add the new segment_time to the list of previous_segments (≈ 1 line)

@@ -7,6 +7,18 @@ import datagenerator
 
 import model
 from keras.optimizers import Adam
+from keras.utils import multi_gpu_model
+
+
+####ONLY USE NEEDED RAM
+import tensorflow as tf
+from keras.backend.tensorflow_backend import set_session
+config = tf.ConfigProto()
+config.gpu_options.allow_growth = True  # dynamically grow the memory used on the GPU
+config.log_device_placement = True  # to log device placement (on which device the operation ran)sess = tf.Session(config=config)set_session(sess)  # set this TensorFlow session as the default session for Keras
+sess = tf.Session(config=config)
+set_session(sess)  # set this TensorFlow session as the default session for Keras
+#####
 
 
 
@@ -14,7 +26,7 @@ fft = datagenerator.get_fft(np.sin(np.linspace(-np.pi*10,np.pi, 128)))
 
 # Parameters
 params = {'dim': (625,128), #Dims = (timesteps, frequency bins)
-          'batch_size': 32,
+          'batch_size': 64,
           'n_classes': 1, #Only detect one type of word
           'Ty': 153, #Number of output bins
           'shuffle': True}
@@ -50,13 +62,14 @@ dataloader_training = datagenerator.DataGenerator(backgrounds,train_act, train_n
 dataloader_validation = datagenerator.DataGenerator(backgrounds,valid_act, valid_neg, samplerate=8000, **params)
 
 
+
 Tx = 625
 n_freq = 128
 
 model = model.model(input_shape = (Tx, n_freq))
 
 print(model.summary())
-#model = multi_gpu_model(model)
+model = multi_gpu_model(model)
 print(model.summary())
 
 
@@ -65,12 +78,13 @@ opt = Adam(lr=0.0001, beta_1=0.9, beta_2=0.999, decay=0.01)
 model.compile(loss='binary_crossentropy', optimizer=opt, metrics=["accuracy"])
 
 
-for i in range(10):
-    model.fit_generator(dataloader_training, workers=2)
+for i in range(100):
+    model.fit_generator(dataloader_training, epochs = 20, use_multiprocessing=True, workers=12,
+                        max_queue_size=1000, validation_data=dataloader_validation)
 
     loss, acc = model.evaluate_generator(dataloader_validation)
     #model.fit(X, Y, batch_size = 10, epochs=10)
     #loss, acc = model.evaluate(X_dev, Y_dev)
     print("Dev set accuracy = ", acc)
 
-    #model.save('trains/trained_model_{}.h5'.format(i))
+    model.save('trains/trained_model_{}.h5'.format(i))
