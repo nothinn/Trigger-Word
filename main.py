@@ -1,4 +1,4 @@
-'''
+
 ####ONLY USE NEEDED RAM
 import tensorflow as tf
 from keras.backend.tensorflow_backend import set_session
@@ -8,7 +8,7 @@ config.log_device_placement = True  # to log device placement (on which device t
 sess = tf.Session(config=config)
 set_session(sess)  # set this TensorFlow session as the default session for Keras
 #####
-'''
+
 
 import numpy as np
 
@@ -20,7 +20,7 @@ import utils
 
 from keras.optimizers import Adam
 
-'''
+
 
 Tx = 5511 # The number of time steps input to the model from the spectrogram
 n_freq = 101 # Number of frequencies input to the model at each time step of the spectrogram
@@ -34,8 +34,8 @@ samplerate = 33100
 model = model.model(input_shape = (Tx, n_freq))
 
 print(model.summary())
-model = multi_gpu_model(model)
-print(model.summary())
+#model = multi_gpu_model(model)
+#print(model.summary())
 
 
 
@@ -45,18 +45,18 @@ model.compile(loss='binary_crossentropy', optimizer=opt, metrics=["accuracy"])
 
 # Load preprocessed training examples
 X = np.load("Keras-Trigger-Word/XY_train/X.npy")
-input(X.shape)
+#input(X.shape)
 Y = np.load("Keras-Trigger-Word/XY_train/Y.npy")
-input(Y.shape)
+#input(Y.shape)
 
 
 # Load preprocessed dev set examples
 X_dev = np.load("Keras-Trigger-Word/XY_dev/X_dev.npy")
-input(X_dev.shape)
+#input(X_dev.shape)
 Y_dev = np.load("Keras-Trigger-Word/XY_dev/Y_dev.npy")
-input(Y_dev.shape)
+#input(Y_dev.shape)
 
-'''
+
 # Parameters
 params = {'dim': (5511,101), #Dims = (samples, frequency bins)
           'batch_size': 64,
@@ -65,7 +65,7 @@ params = {'dim': (5511,101), #Dims = (samples, frequency bins)
           'shuffle': True}
 
 
-
+'''
 
 #Load backgrounds
 backgrounds = []
@@ -139,9 +139,8 @@ valid_generator = model.DataGenerator(validation_set, backgrounds)
 '''
 for i in range(100):
 
-    model.fit(X, Y, batch_size = 10, epochs=10)
+    model.fit(X, Y, batch_size = 40, epochs=10)
     loss, acc = model.evaluate(X_dev, Y_dev)
     print("Dev set accuracy = ", acc)
 
-    model.save('trains/trained_model_{}.h5'.format(i))
-'''
+    model.save('trains2/trained_model_{}.h5'.format(i))

@@ -9,37 +9,59 @@ import simpleaudio as sa
 samplerate = 33100
 
 
+loaded_audio = {}
+
 def load_audio(path, samplerate = samplerate, crop = True):
-    data, sr =  librosa.load(path, None)
+
+    if path in loaded_audio:
+        return loaded_audio[path]
+    else:
+        data, sr =  librosa.load(path, None)
+
+        if "background" in path:
+            pass
+            #data = librosa.util.normalize(data) * 0.001
+            data = np.ones(data.shape) * 0.001
+        else:
+            data = librosa.util.normalize(data)
 
 
-    if crop:
-        #Find first sample above threshold
-        start = 0
-        while abs(data[start]) < 0.001:
-            start += 1
-        start = max(start - 10, 0)
 
-        #Find last sample above threshold
-        stop = len(data) - 1
-        while abs(data[stop]) < 0.001:
-            stop -= 1
-        stop = min(stop + 10, len(data)-2)
+        if crop:
+            data, _ = librosa.effects.trim(data)
+            
+            '''
+            #Find first sample above threshold
+            start = 0
+            while abs(data[start]) < 0.001:
+                start += 1
+            start = max(start - 10, 0)
 
-        if start >= stop:
-            print(path, start, stop)
+            #Find last sample above threshold
+            stop = len(data) - 1
+            while abs(data[stop]) < 0.001:
+                stop -= 1
+            stop = min(stop + 10, len(data)-2)
 
-        data = data[start:stop]
+            if start >= stop:
+                print(path, start, stop)
 
-    data = librosa.resample(data, sr, samplerate)
+            data = data[start:stop]
+            '''
 
-    length = len(data) / samplerate * 1000 #Length of audio in ms.
+        data = librosa.resample(data, sr, samplerate)
 
-    if crop:
-        if length > 3300:
+        length = len(data) / samplerate * 1000 #Length of audio in ms.
+
+        if crop:
+            if length > 3300:
+                pass
+                #print(path, length)
+
+        loaded_audio[path] = (data,length)
+        if length > 1200:
             print(path, length)
-
-    return data, length
+        return data, length
 
 
 def hamming_window_signal(signal):
@@ -63,17 +85,54 @@ def fft(signal, samplerate = samplerate):
     return converted
 
 
-def plt_values(values, path = "temp"):
+def plt_values(values, path = "temp", store=False):
+    if not store:
+        plt.close()
     plt.plot(values)
 
-    plt.show()
+    #plt.show()
 
     plt.savefig(path + ".png")
+    if not store:
+        plt.close()
+
+
+def plt_history(history, path):
+    plt.plot(history.history['acc'])
+    plt.plot(history.history['val_acc'])
+    plt.title('model accuracy')
+    plt.ylabel('accuracy')
+    plt.xlabel('epoch')
+    plt.legend(['train', 'test'], loc='upper left')
+    plt.savefig("plots/" + path + "_accuracy.png")
     plt.close()
 
-def plt_spec(values):
-    plt.imshow(values, cmap='hot',interpolation='nearest', origin='lower')
-    plt.show()
+    # summarize history for loss
+    plt.plot(history.history['loss'])
+    plt.plot(history.history['val_loss'])
+    plt.title('model loss')
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
+    plt.legend(['train', 'test'], loc='upper left')
+    plt.savefig("plots/" + path + "_loss.png")
+    plt.close()
+
+
+def plt_spec(values, path):
+    plt.close()
+    plt.imshow(np.swapaxes(values,0,1), cmap='hot',interpolation='nearest', origin='lower', aspect='auto')
+    plt.savefig(path + "_spec.png")
+    plt.close()
+
+
+def plt_spec_res(x, y):
+    np.swapaxes(x,0,1)
+    number = np.random.randint(2)
+    plt.imshow(x)
+    plt.savefig("plots/Spectogram_{}.png".format(number))
+    plt.close()
+
+    number += 1
 
 
 def plt_spec_ones(x, y):

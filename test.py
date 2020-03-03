@@ -5,9 +5,17 @@ import os
 
 import datagenerator
 
+import keras
+
 import model
 from keras.optimizers import Adam
 from keras.utils import multi_gpu_model
+from keras.models import load_model
+
+
+from keras import metrics
+
+from sklearn.utils import class_weight
 
 
 ####ONLY USE NEEDED RAM
@@ -25,10 +33,10 @@ set_session(sess)  # set this TensorFlow session as the default session for Kera
 fft = datagenerator.get_fft(np.sin(np.linspace(-np.pi*10,np.pi, 128)))
 
 # Parameters
-params = {'dim': (625,128), #Dims = (timesteps, frequency bins)
+params = {'dim': (5511,101), #Dims = (timesteps, frequency bins)
           'batch_size': 64,
           'n_classes': 1, #Only detect one type of word
-          'Ty': 153, #Number of output bins
+          'Ty': 1375, #Number of output bins
           'shuffle': True}
 
 
@@ -58,33 +66,48 @@ with open("validation_neg.txt","r") as f:
 
 
 #Make dataloaders for training and validation
-dataloader_training = datagenerator.DataGenerator(backgrounds,train_act, train_neg, samplerate=8000, **params)
-dataloader_validation = datagenerator.DataGenerator(backgrounds,valid_act, valid_neg, samplerate=8000, **params)
+dataloader_training = datagenerator.DataGenerator(backgrounds,train_act, train_neg, samplerate=44100, **params)
+dataloader_validation = datagenerator.DataGenerator(backgrounds,valid_act, valid_neg, samplerate=44100, **params)
 
 
 
-Tx = 625
-n_freq = 128
+Tx = 5511
+n_freq = 101
 
 model = model.model(input_shape = (Tx, n_freq))
 
 print(model.summary())
-model = multi_gpu_model(model)
-print(model.summary())
+#model = multi_gpu_model(model)
+#print(model.summary())
+
+#model = load_model('./Keras-Trigger-Word/models/tr_model.h5')
+#print(model.summary())
+
 
 
 
 opt = Adam(lr=0.0001, beta_1=0.9, beta_2=0.999, decay=0.01)
 model.compile(loss='binary_crossentropy', optimizer=opt, metrics=["accuracy"])
+#model.compile(loss='binary_crossentropy', optimizer=opt, metrics=["accuracy"],sample_weight_mode = "temporal")
 
 
-for i in range(100):
-    model.fit_generator(dataloader_training, epochs = 20, use_multiprocessing=True, workers=12,
-                        max_queue_size=1000, validation_data=dataloader_validation)
 
-    loss, acc = model.evaluate_generator(dataloader_validation)
+
+for i in range(10):
+    history = model.fit_generator(dataloader_training, epochs = 100, use_multiprocessing=True, workers=24,
+                        max_queue_size=100, validation_data=dataloader_validation)
+
+    print("History from training:")
+    print(history.history.keys())
+    utils.plt_history(history, str(i))
+    loss, acc = model.evaluate_generator(dataloader_validation,use_multiprocessing=True, workers=6)
     #model.fit(X, Y, batch_size = 10, epochs=10)
     #loss, acc = model.evaluate(X_dev, Y_dev)
     print("Dev set accuracy = ", acc)
+    sample = dataloader_validation.__getitem__(1)
+
+    result = model.predict(sample[0])
+    utils.plt_values(sample[1][0],"plots/Golden_model{}".format(i))
+    utils.plt_values(result[0],"plots/result{}".format(i))
 
     model.save('trains/trained_model_{}.h5'.format(i))
