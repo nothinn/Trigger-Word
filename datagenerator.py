@@ -4,8 +4,11 @@ import keras
 
 import utils
 import random
+import matplotlib.pyplot as plt
 
 import math
+
+import librosa
 
 import time
 
@@ -25,6 +28,8 @@ class DataGenerator(keras.utils.Sequence):
         self.activations = activations
         self.negatives = negatives
 
+        self.loaded_audio = {}
+
         self.Ty = Ty
         
         self.on_epoch_end()
@@ -32,12 +37,14 @@ class DataGenerator(keras.utils.Sequence):
 
     def __len__(self):
         'Denotes the number of batches per epoch'
-        return int(np.floor(len(self.activations) / self.batch_size))
+        return int(np.floor(len(self.activations) / self.batch_size))*10
 
     def __getitem__(self, index):
         'Generate one batch of data'
         # Generate indexes of the batch
         indexes = self.indexes[index*self.batch_size:(index+1)*self.batch_size]
+
+        indexes = [random.choice(self.indexes) for i in range(self.batch_size)]
 
         # Find list of IDs
         list_IDs_temp = [self.activations[k] for k in indexes]
@@ -45,7 +52,30 @@ class DataGenerator(keras.utils.Sequence):
         # Generate data
         X, y = self.__data_generation(list_IDs_temp)
 
-        return X, y
+
+        weights = np.ones((self.batch_size, self.Ty))
+
+        for x, y_new in zip(X,y):
+            val = np.random.randint(1000)
+            #utils.plt_values(y_new,"plots/AudioPure{}_0".format(val))
+            
+
+
+        for batch in range(y.shape[0]):
+            #Find number of ones compared to number of zeroes:
+            weight =  np.sum(y[batch]) / (y[batch].shape[0]) #number of 1s divided by length gives weights for zeroes
+
+            weight *= 2
+
+            for i in range(y.shape[1]):
+                if y[batch,i] == 1:
+                    weights[batch,i] *= 4
+
+
+        #print(X.shape, y.shape)
+
+        #utils.plt_spec(X[0], "plots/saved_spec{}".format(np.random.randint(20)))
+        return X, y#, weights
 
     def on_epoch_end(self):
         'Updates indexes after each epoch'
@@ -66,7 +96,10 @@ class DataGenerator(keras.utils.Sequence):
             # Randomly choose background
             background = random.choice(self.backgrounds)
 
+
             background, length = utils.load_audio(background,self.samplerate, crop = False)
+
+            #utils.plt_values(background,"AudioPure1")
 
             # Randomly choose two negative words
             neg1 = random.choice(self.negatives)
@@ -75,11 +108,17 @@ class DataGenerator(keras.utils.Sequence):
                 neg1 = random.choice(self.negatives)
                 neg1, neg1_length = utils.load_audio(neg1,self.samplerate)
 
-            #neg2 = random.choice(self.negatives)
-            #neg2, neg2_length = utils.load_audio(neg2,self.samplerate)
+            neg2 = random.choice(self.negatives)
+            neg2, neg2_length = utils.load_audio(neg2,self.samplerate)
 
-            # Load the activation word
+            # Load the activation word and one random
             act, act_length = utils.load_audio(ID,self.samplerate)
+
+            act2, act_length2 = utils.load_audio(random.choice(self.negatives),self.samplerate)
+
+            #utils.plt_values(act,"AudioPure2")
+
+            
 
 
 
@@ -87,20 +126,28 @@ class DataGenerator(keras.utils.Sequence):
             y[i] = np.zeros((self.Ty,1)) #Fill out result vector
             #Insert activation word randomly
             background, segment_time = insert_audio_clip(background, act, act_length, self.samplerate, previous_segments)
+            
             segment_start, segment_end = segment_time
             y[i] = insert_ones(y[i], segment_end, self.Ty)
 
             #Insert the two negatives randomly
-            background, segment_time = insert_audio_clip(background, neg1, neg1_length, self.samplerate, previous_segments)
-            #background, segment_time = insert_audio_clip(background, neg2, neg2_length, previous_segments)
-
+            #background, segment_time = insert_audio_clip(background, neg1, neg1_length, self.samplerate, previous_segments)
+            #background, segment_time = insert_audio_clip(background, neg2, neg2_length, self.samplerate, previous_segments)
+            background, segment_time = insert_audio_clip(background, act2, act_length2, self.samplerate, previous_segments)
+            segment_start, segment_end = segment_time
+            y[i] = insert_ones(y[i], segment_end, self.Ty)
             
             # calculate spectrum, should be of shape (5511,101) where 5511 is the timesteps and 101 are the fft results
             spectrum = get_spectrum(background)
+            #utils.plt_values(background,"AudioPure", store=True)
+            #utils.plt_values(y[i],"AudioPure")
+            
 
             X[i, ] = spectrum
 
-        return X, y #keras.utils.to_categorical(y, num_classes=self.n_classes)
+
+
+        return X, y 
 
 
 def get_spectrum(signal):
@@ -139,7 +186,32 @@ def get_spectrum(signal):
         else:
             result[i] = get_fft(signal[i*256:(i+1) * 256])
 
-    return result
+
+
+    #Original way
+
+    noverlap = 120 # Overlap between windows
+
+    nfft = 200 # Length of each window segment
+    fs = 8000 # Sampling frequencies, not used
+    plt.close() 
+    pxx, freqs, bins, im = plt.specgram(signal, nfft, fs, noverlap = noverlap)
+
+    #pxx = librosa.feature.melspectrogram(y=signal,sr=fs)
+    #print(pxx.shape)
+
+    #pxx = pxx[0]
+    #print(pxx.shape)
+    
+
+    
+    pxx = np.log(pxx)
+    pxx = pxx - np.min(pxx)
+    pxx = pxx / np.max(pxx) #Normalize
+    tmp = np.swapaxes(pxx,0,1)
+    
+    return tmp
+    #return result
 
 
 
@@ -258,7 +330,7 @@ def insert_ones(y, segment_end_ms, Ty):
     
     # Add 1 to the correct index in the background label (y)
     ### START CODE HERE ### (≈ 3 lines)
-    for i in range(segment_end_y + 1, segment_end_y + 1 + Ty//30): #Ty//30 gives ~ 45 ones for 1375 outputs
+    for i in range(segment_end_y + 1, segment_end_y + 1 + Ty//10): #Ty//30 gives ~ 45 ones for 1375 outputs
         if i < Ty:
             y[i, 0] = 1
     ### END CODE HERE ###
