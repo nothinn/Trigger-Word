@@ -31,9 +31,6 @@ random.shuffle(lines)
 training_act = lines[0:trains] #Activations
 validation_act = lines[trains:]#Activations
 
-
-
-
 #make a list of all available words
 dirs = os.listdir("data/words/")
 

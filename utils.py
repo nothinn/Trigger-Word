@@ -11,13 +11,13 @@ samplerate = 33100
 
 loaded_audio = {}
 
-def load_audio(path, samplerate = samplerate, crop = True):
+def load_audio(path, samplerate = samplerate, crop = True, length = None):
 
     if path in loaded_audio:
         return loaded_audio[path]
     else:
         data, sr =  librosa.load(path, None)
-
+                
         if "background" in path:
             pass
             #data = librosa.util.normalize(data) * 0.001
@@ -50,6 +50,15 @@ def load_audio(path, samplerate = samplerate, crop = True):
             '''
 
         data = librosa.resample(data, sr, samplerate)
+
+        if length:
+            if len(data) < samplerate * length:
+                #print("Added in the beginning")
+                data = np.concatenate((np.zeros(int(samplerate*length - len(data))),data),axis=0)
+                #print(data.shape)
+            elif len(data) > samplerate*length:
+                #print("subtracted beginning")
+                data = data[len(data)-samplerate*length:]
 
         length = len(data) / samplerate * 1000 #Length of audio in ms.
 
