@@ -10,9 +10,126 @@ import math
 
 import librosa
 
+import sklearn
+
 import time
+import os
+
+import concurrent.futures
+
+
+def load_clip(path):
+    signal,length = utils.load_audio(path, samplerate=44100, length = 1)
+
+    if len(signal) != 44100:
+        print("Failed", path, len(signal), length)
+    return signal
+
 
 class DataGenerator(keras.utils.Sequence):
+    'Generates data for Keras'
+
+
+    def __init__(self, words, num_classes, batch_size=32, dim=(32, 32, 32), n_channels=1,
+                 samplerate=33100, shuffle=True):
+        'Initialization'
+        self.dim = dim
+        self.batch_size = batch_size
+        self.n_channels = n_channels
+        
+        self.shuffle = shuffle
+
+        self.samplerate = samplerate
+
+        self.loaded_audio = []
+
+        self.num_files = 0
+
+
+        paths_list = []
+        classes = []
+
+        for index, word in enumerate(words):
+            paths = os.listdir("data/words/" + word + "/")
+            for path in paths:
+                path = "data/words/" +word + "/"+ path
+                print(path)
+                paths_list.append(path)
+                classes.append(index)
+
+                #signal,_ = utils.load_audio(path, length = 1)
+                #self.loaded_audio.append((word, signal, path)) #Index is the class
+                self.num_files += 1
+
+        print("Got words. Starting concurrent work")
+
+        with concurrent.futures.ProcessPoolExecutor() as executor:
+            for word, signal in zip(classes, executor.map(load_clip,paths_list)):
+                self.loaded_audio.append((word, signal))
+
+
+
+
+        #print(self.loaded_audio)
+            
+        self.num_classes = num_classes
+        
+        self.on_epoch_end()
+
+
+    def __len__(self):
+        'Denotes the number of batches per epoch'
+        return int(np.floor(self.num_files / self.batch_size))
+
+    def __getitem__(self, index):
+        'Generate one batch of data'
+        # Generate indexes of the batch
+        indexes = self.indexes[index*self.batch_size:(index+1)*self.batch_size]
+
+        # Find list of IDs
+        list_IDs_temp = [self.loaded_audio[k] for k in indexes]
+
+        # Generate data
+        X, y = self.__data_generation(list_IDs_temp)
+
+
+        #weights = np.ones((self.batch_size, self.num_classes))
+
+        return X, y#, weights
+
+    def on_epoch_end(self):
+        'Updates indexes after each epoch'
+        self.indexes = np.arange(self.num_files)
+        
+        if self.shuffle == True:
+            np.random.shuffle(self.indexes)
+
+    def __data_generation(self, list_IDs_temp):
+        # X : (n_samples, *dim, n_channels)
+        'Generates data containing batch_size samples'
+        # Initialization
+        X = np.empty((self.batch_size, *self.dim))
+        y = np.zeros((self.batch_size))
+
+        # Generate data, make a 10 second clip with 3 words from which one is the activation word
+        for i, ID in enumerate(list_IDs_temp):
+            # calculate spectrum, should be of shape (5511,101) where 5511 is the timesteps and 101 are the fft results
+            
+            #sound = utils.load_audio(ID[0],self.samplerate, crop = False, length = 1)
+
+            #if sound[0].shape[0] != 44100:
+                #print(sound[0].shape)
+
+            spectrum = get_spectrum(ID[1])
+            #utils.plt_values(background,"AudioPure", store=True)
+            #utils.plt_values(y[i],"AudioPure")
+
+            X[i, ] = spectrum
+
+            y[i] = ID[0]
+        return X, keras.utils.to_categorical(y, num_classes=self.num_classes)
+
+class DataGenerator_old(keras.utils.Sequence):
     'Generates data for Keras'
 
     def __init__(self, backgrounds, activations, negatives, Ty, batch_size=32, dim=(32, 32, 32), n_channels=1,
@@ -37,49 +154,28 @@ class DataGenerator(keras.utils.Sequence):
 
     def __len__(self):
         'Denotes the number of batches per epoch'
-        return int(np.floor(len(self.activations) / self.batch_size))*10
+        return int(np.floor(len(self.activations + self.negatives) / self.batch_size))
 
     def __getitem__(self, index):
         'Generate one batch of data'
         # Generate indexes of the batch
         indexes = self.indexes[index*self.batch_size:(index+1)*self.batch_size]
 
-        indexes = [random.choice(self.indexes) for i in range(self.batch_size)]
-
         # Find list of IDs
-        list_IDs_temp = [self.activations[k] for k in indexes]
+        list_IDs_temp = [(self.activations[k] if k < len(self.activations) else self.negatives[k-len(self.activations)] , True if k < len(self.activations) else False) for k in indexes]
 
         # Generate data
         X, y = self.__data_generation(list_IDs_temp)
 
 
-        weights = np.ones((self.batch_size, self.Ty))
+        #weights = np.ones((self.batch_size, self.Ty))
 
-        for x, y_new in zip(X,y):
-            val = np.random.randint(1000)
-            #utils.plt_values(y_new,"plots/AudioPure{}_0".format(val))
-            
-
-
-        for batch in range(y.shape[0]):
-            #Find number of ones compared to number of zeroes:
-            weight =  np.sum(y[batch]) / (y[batch].shape[0]) #number of 1s divided by length gives weights for zeroes
-
-            weight *= 2
-
-            for i in range(y.shape[1]):
-                if y[batch,i] == 1:
-                    weights[batch,i] *= 4
-
-
-        #print(X.shape, y.shape)
-
-        #utils.plt_spec(X[0], "plots/saved_spec{}".format(np.random.randint(20)))
         return X, y#, weights
 
     def on_epoch_end(self):
         'Updates indexes after each epoch'
-        self.indexes = np.arange(len(self.activations))
+        self.indexes = np.arange(len(self.activations)+len(self.negatives))
+        
         if self.shuffle == True:
             np.random.shuffle(self.indexes)
 
@@ -88,11 +184,11 @@ class DataGenerator(keras.utils.Sequence):
         'Generates data containing batch_size samples'
         # Initialization
         X = np.empty((self.batch_size, *self.dim))
-        y = np.empty((self.batch_size, self.Ty, 1))
+        y = np.empty((self.batch_size, self.Ty))
 
         # Generate data, make a 10 second clip with 3 words from which one is the activation word
         for i, ID in enumerate(list_IDs_temp):
-
+            '''
             # Randomly choose background
             background = random.choice(self.backgrounds)
 
@@ -136,17 +232,22 @@ class DataGenerator(keras.utils.Sequence):
             background, segment_time = insert_audio_clip(background, act2, act_length2, self.samplerate, previous_segments)
             segment_start, segment_end = segment_time
             y[i] = insert_ones(y[i], segment_end, self.Ty)
-            
+            '''
+
             # calculate spectrum, should be of shape (5511,101) where 5511 is the timesteps and 101 are the fft results
-            spectrum = get_spectrum(background)
+            
+            sound = utils.load_audio(ID[0],self.samplerate, crop = False, length = 1)
+
+            if sound[0].shape[0] != 44100:
+                print(sound[0].shape)
+
+            spectrum = get_spectrum(sound[0])
             #utils.plt_values(background,"AudioPure", store=True)
             #utils.plt_values(y[i],"AudioPure")
-            
 
             X[i, ] = spectrum
 
-
-
+            y[i] = ID[1]
         return X, y 
 
 
@@ -194,7 +295,7 @@ def get_spectrum(signal):
 
     nfft = 200 # Length of each window segment
     fs = 8000 # Sampling frequencies, not used
-    plt.close() 
+
     pxx, freqs, bins, im = plt.specgram(signal, nfft, fs, noverlap = noverlap)
 
     #pxx = librosa.feature.melspectrogram(y=signal,sr=fs)
@@ -204,13 +305,14 @@ def get_spectrum(signal):
     #print(pxx.shape)
     
 
+
     
-    pxx = np.log(pxx)
-    pxx = pxx - np.min(pxx)
-    pxx = pxx / np.max(pxx) #Normalize
-    tmp = np.swapaxes(pxx,0,1)
+    #pxx = np.log(pxx)
+    #pxx = pxx - np.min(pxx)
+    #pxx = pxx / np.max(pxx) #Normalize
+    #tmp = np.swapaxes(pxx,0,1)
     
-    return tmp
+    return np.swapaxes(sklearn.preprocessing.normalize(pxx),0,1)
     #return result
 
 
