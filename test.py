@@ -19,13 +19,18 @@ from sklearn.utils import class_weight
 
 from datetime import datetime
 
+import logging
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+logging.getLogger('tensorflow').setLevel(logging.FATAL)
+
 
 ####ONLY USE NEEDED RAM
 import tensorflow as tf
 from keras.backend.tensorflow_backend import set_session
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True  # dynamically grow the memory used on the GPU
-config.log_device_placement = True  # to log device placement (on which device the operation ran)sess = tf.Session(config=config)set_session(sess)  # set this TensorFlow session as the default session for Keras
+config.log_device_placement = False  # to log device placement (on which device the operation ran)sess = tf.Session(config=config)set_session(sess)  # set this TensorFlow session as the default session for Keras
 sess = tf.Session(config=config)
 set_session(sess)  # set this TensorFlow session as the default session for Keras
 #####
@@ -38,7 +43,7 @@ words = ["bed","bird","cat","dog","happy","marvin","nine"]
 # Parameters
 params = {'dim': (549,101), #Dims = (timesteps, frequency bins)
           'batch_size': 64,
-          'num_classes': len(words), #Only detect one type of word
+          'num_classes': len(words),
           'shuffle': True}
 
 
@@ -78,7 +83,9 @@ valid_neg = train_neg[0:50]
 
 
 #Make dataloaders for training and validation
-dataloader_training = datagenerator.DataGenerator(words=words, samplerate=44100, **params)
+dataloader_training = datagenerator.DataGenerator(words=words, samplerate=22050, path_to_words="data/training/words/", **params)
+dataloader_validation = datagenerator.DataGenerator(words=words, samplerate=22050, path_to_words="data/validation/words/", **params)
+
 #dataloader_validation = datagenerator.DataGenerator(backgrounds,valid_act, valid_neg, samplerate=44100, **params)
 
 
@@ -89,6 +96,11 @@ n_freq = 101
 model = model.model(input_shape = (Tx, n_freq), num_classes = len(words))
 
 print(model.summary())
+
+
+
+
+#input("Waiting for input after showing summary")
 #model = multi_gpu_model(model)
 #print(model.summary())
 
@@ -98,7 +110,7 @@ print(model.summary())
 
 
 
-opt = Adam(lr=0.001, beta_1=0.9, beta_2=0.999, decay=0.01)
+opt = Adam(lr=0.005, beta_1=0.9, beta_2=0.999, decay=0.01)
 model.compile(loss='binary_crossentropy', optimizer=opt, metrics=["accuracy"])
 #model.compile(loss='binary_crossentropy', optimizer=opt, metrics=["accuracy"],sample_weight_mode = "temporal")
 
@@ -106,13 +118,21 @@ model.compile(loss='binary_crossentropy', optimizer=opt, metrics=["accuracy"])
 logdir = "logs/scalars/" + datetime.now().strftime("%Y_%m_%d-%H:%M:%S")
 tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir)
 
+filepath = "trains/saved-model-{epoch:02d}-{loss:.3f}.hdf5"
+
+
+saveModel_callback = keras.callbacks.ModelCheckpoint(filepath, monitor='acc', verbose=0, save_best_only=False, save_weights_only=False, mode='auto', period=1)
+
+
+
+
+callbacks = [tensorboard_callback, saveModel_callback]
+
 
 weight = len(train_neg)/len(train_act)
 
 #class_weight = {0:1, 1:weight}
 
-
-for i in range(10):
     #sample = dataloader_validation.__getitem__(1)
 
     #print(sample[1].shape)
@@ -121,15 +141,16 @@ for i in range(10):
         #print(ingoing, outgoing)
 
 
-    history = model.fit_generator(dataloader_training, epochs = 20, use_multiprocessing=True, workers=24,#class_weight = class_weight,
-                        max_queue_size=1000, callbacks=[tensorboard_callback])
+history = model.fit_generator(dataloader_training, epochs = 80, use_multiprocessing=True, workers=24,#class_weight = class_weight,
+                        max_queue_size=1000, callbacks=callbacks, validation_data=dataloader_validation)#,validation_data=dataloader_validation)
     #, validation_data=dataloader_validation
-    print("History from training:")
-    print(history.history.keys())
+print("History from training:")
+print(history.history.keys())
     #utils.plt_history(history, str(i))
     #loss, acc = model.evaluate_generator(dataloader_validation,use_multiprocessing=True, workers=6)
     #model.fit(X, Y, batch_size = 10, epochs=10)
     #loss, acc = model.evaluate(X_dev, Y_dev)
     #print("Dev set accuracy = ", acc)
 
-    model.save('trains/trained_model_{}.h5'.format(i))
+
+

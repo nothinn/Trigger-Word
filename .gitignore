@@ -5,5 +5,8 @@ data/*
 !data/source.txt
 __pycache__/
 
+trains/*
+trains2/*
+
 
 *.png
