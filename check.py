@@ -11,7 +11,11 @@ from keras.utils import multi_gpu_model
 
 from keras.models import load_model
 
+model = load_model("trains/saved-model-40-0.044.hdf5")
 
+print("Loaded model")
+
+model.summary()
 
 #list backgrounds
 backgrounds = ["data/backgrounds/" + x for x in os.listdir("data/backgrounds/")]
@@ -48,11 +52,7 @@ dataloader_validation = datagenerator.DataGenerator(backgrounds,valid_act, valid
 
 
 
-model = load_model("trains/trained_model_2.h5")
 
-print("Loaded model")
-
-model.summary()
 
 #print(model.evaluate_generator(dataloader_validation))
 
@@ -61,6 +61,8 @@ print("Evaluated model")
 sample = dataloader_validation.__getitem__(1)
 
 result = model.predict(sample[0])
+
+
 print(sample[1][0])
 utils.plt_values(sample[1][0],"Golden model")
 utils.plt_values(result[0],"result")
