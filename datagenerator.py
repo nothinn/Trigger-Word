@@ -30,7 +30,7 @@ class DataGenerator(keras.utils.Sequence):
     'Generates data for Keras'
 
 
-    def __init__(self, words, num_classes, batch_size=32, dim=(32, 32, 32), n_channels=1,
+    def __init__(self,  words, num_classes, path_to_words = "data/words/", batch_size=32, dim=(32, 32, 32), n_channels=1,
                  samplerate=33100, shuffle=True):
         'Initialization'
         self.dim = dim
@@ -50,10 +50,10 @@ class DataGenerator(keras.utils.Sequence):
         classes = []
 
         for index, word in enumerate(words):
-            paths = os.listdir("data/words/" + word + "/")
+            paths = os.listdir( path_to_words + word + "/")
             for path in paths:
-                path = "data/words/" +word + "/"+ path
-                print(path)
+                path = path_to_words +word + "/"+ path
+                #print(path)
                 paths_list.append(path)
                 classes.append(index)
 
@@ -61,7 +61,7 @@ class DataGenerator(keras.utils.Sequence):
                 #self.loaded_audio.append((word, signal, path)) #Index is the class
                 self.num_files += 1
 
-        print("Got words. Starting concurrent work")
+        print("Got {0} words. Starting concurrent work".format(self.num_files))
 
         with concurrent.futures.ProcessPoolExecutor() as executor:
             for word, signal in zip(classes, executor.map(load_clip,paths_list)):

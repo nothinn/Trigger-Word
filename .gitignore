@@ -10,3 +10,4 @@ trains2/*
 
 
 *.png
+logs/scalars/*
