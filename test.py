@@ -8,6 +8,8 @@ import datagenerator
 import keras
 
 import model
+import model_rnn
+
 from keras.optimizers import Adam
 from keras.utils import multi_gpu_model
 from keras.models import load_model
@@ -80,6 +82,12 @@ valid_neg = train_neg[0:50]
 
 
 
+Tx = 549
+n_freq = 101
+
+model = model.model(input_shape = (Tx, n_freq), num_classes = len(words))
+
+print(model.summary())
 
 
 #Make dataloaders for training and validation
@@ -90,12 +98,6 @@ dataloader_validation = datagenerator.DataGenerator(words=words, samplerate=2205
 
 
 
-Tx = 549
-n_freq = 101
-
-model = model.model(input_shape = (Tx, n_freq), num_classes = len(words))
-
-print(model.summary())
 
 
 
@@ -114,11 +116,14 @@ opt = Adam(lr=0.005, beta_1=0.9, beta_2=0.999, decay=0.01)
 model.compile(loss='binary_crossentropy', optimizer=opt, metrics=["accuracy"])
 #model.compile(loss='binary_crossentropy', optimizer=opt, metrics=["accuracy"],sample_weight_mode = "temporal")
 
+model_json = model.to_json()
+with open("model.json", "w") as json_file:
+    json_file.write(model_json)
 
 logdir = "logs/scalars/" + datetime.now().strftime("%Y_%m_%d-%H:%M:%S")
 tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir)
 
-filepath = "trains/saved-model-{epoch:02d}-{loss:.3f}.hdf5"
+filepath = "trains/saved-model-{epoch:02d}-{loss:.3f}.h5"
 
 
 saveModel_callback = keras.callbacks.ModelCheckpoint(filepath, monitor='acc', verbose=0, save_best_only=False, save_weights_only=False, mode='auto', period=1)

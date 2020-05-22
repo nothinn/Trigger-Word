@@ -15,6 +15,8 @@ import sklearn
 import time
 import os
 
+from keras.backend import expand_dims
+
 import concurrent.futures
 
 
@@ -170,7 +172,7 @@ class DataGenerator_old(keras.utils.Sequence):
 
         #weights = np.ones((self.batch_size, self.Ty))
 
-        return X, y#, weights
+        return expand_dims(X,1), y#, weights
 
     def on_epoch_end(self):
         'Updates indexes after each epoch'
@@ -248,7 +250,7 @@ class DataGenerator_old(keras.utils.Sequence):
             X[i, ] = spectrum
 
             y[i] = ID[1]
-        return X, y 
+        return expand_dims(X,1), y 
 
 
 def get_spectrum(signal):
