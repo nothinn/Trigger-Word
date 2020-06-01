@@ -19,16 +19,18 @@ from keras.backend import expand_dims
 
 import concurrent.futures
 
+def load_clip(path, samplerate):
+        signal,length = utils.load_audio(path, samplerate=samplerate, length = 1)
 
-def load_clip(path):
-    signal,length = utils.load_audio(path, samplerate=44100, length = 1)
+        if len(signal) != samplerate:
+            print("Failed", path, len(signal), length)
+        return signal
 
-    if len(signal) != 44100:
-        print("Failed", path, len(signal), length)
-    return signal
 
 
 class DataGenerator(keras.utils.Sequence):
+
+
     'Generates data for Keras'
 
 
@@ -49,6 +51,7 @@ class DataGenerator(keras.utils.Sequence):
 
 
         paths_list = []
+        samplerate_list = []
         classes = []
 
         for index, word in enumerate(words):
@@ -57,6 +60,8 @@ class DataGenerator(keras.utils.Sequence):
                 path = path_to_words +word + "/"+ path
                 #print(path)
                 paths_list.append(path)
+                samplerate_list.append(self.samplerate)
+
                 classes.append(index)
 
                 #signal,_ = utils.load_audio(path, length = 1)
@@ -66,7 +71,7 @@ class DataGenerator(keras.utils.Sequence):
         print("Got {0} words. Starting concurrent work".format(self.num_files))
 
         with concurrent.futures.ProcessPoolExecutor() as executor:
-            for word, signal in zip(classes, executor.map(load_clip,paths_list)):
+            for word, signal in zip(classes, executor.map(load_clip,paths_list,samplerate_list)):
                 self.loaded_audio.append((word, signal))
 
 
@@ -94,7 +99,6 @@ class DataGenerator(keras.utils.Sequence):
         # Generate data
         X, y = self.__data_generation(list_IDs_temp)
 
-
         #weights = np.ones((self.batch_size, self.num_classes))
 
         return X, y#, weights
@@ -121,6 +125,8 @@ class DataGenerator(keras.utils.Sequence):
 
             #if sound[0].shape[0] != 44100:
                 #print(sound[0].shape)
+
+            #print_spectrum(ID[1],ID[0],i)
 
             spectrum = get_spectrum(ID[1])
             #utils.plt_values(background,"AudioPure", store=True)
@@ -243,6 +249,8 @@ class DataGenerator_old(keras.utils.Sequence):
             if sound[0].shape[0] != 44100:
                 print(sound[0].shape)
 
+
+
             spectrum = get_spectrum(sound[0])
             #utils.plt_values(background,"AudioPure", store=True)
             #utils.plt_values(y[i],"AudioPure")
@@ -251,6 +259,18 @@ class DataGenerator_old(keras.utils.Sequence):
 
             y[i] = ID[1]
         return expand_dims(X,1), y 
+
+
+def print_spectrum(signal, name, index):
+    noverlap = 128+64 # Overlap between windows
+
+    nfft = 256 # Length of each window segment
+    fs = 8000 # Sampling frequencies, not used
+
+    pxx, freqs, bins, im = plt.specgram(signal, nfft, fs, noverlap = noverlap)
+
+    plt.savefig('images/spec' + name + '_' + str(index)+  '.png')
+
 
 
 def get_spectrum(signal):
@@ -296,7 +316,7 @@ def get_spectrum(signal):
     noverlap = 120 # Overlap between windows
 
     nfft = 200 # Length of each window segment
-    fs = 8000 # Sampling frequencies, not used
+    fs = 22050 # Sampling frequencies, not used
 
     pxx, freqs, bins, im = plt.specgram(signal, nfft, fs, noverlap = noverlap)
 
