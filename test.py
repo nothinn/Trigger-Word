@@ -9,6 +9,7 @@ import keras
 
 import model
 import model_rnn
+import model_small
 
 from keras.optimizers import Adam
 from keras.utils import multi_gpu_model
@@ -18,6 +19,8 @@ from keras.models import load_model
 from keras import metrics
 
 from sklearn.utils import class_weight
+
+from sklearn.metrics import confusion_matrix
 
 from datetime import datetime
 
@@ -85,14 +88,28 @@ valid_neg = train_neg[0:50]
 Tx = 549
 n_freq = 101
 
-model = model.model(input_shape = (Tx, n_freq), num_classes = len(words))
+model = model_small.model(input_shape = (Tx, n_freq), num_classes = len(words))
 
 print(model.summary())
 
 
+#clip = datagenerator.load_clip("/work1/s154227/master/data/training/words/happy/1a6eca98_nohash_0.wav", 8000)
+#datagenerator.print_spectrum(clip, "happy", 0)
+
+#clip = datagenerator.load_clip("/work1/s154227/master/data/training/words/marvin/1a6eca98_nohash_1.wav", 8000)
+#datagenerator.print_spectrum(clip, "marvin", 0)
+
+#clip = datagenerator.load_clip("/work1/s154227/master/data/training/words/no/1a4259c3_nohash_0.wav", 8000)
+#datagenerator.print_spectrum(clip, "no", 0)
+
+#clip = datagenerator.load_clip("/work1/s154227/master/data/training/words/no/1b459024_nohash_0.wav", 8000)
+#datagenerator.print_spectrum(clip, "no", 1)
+
+#assert(2==3)
+
 #Make dataloaders for training and validation
-dataloader_training = datagenerator.DataGenerator(words=words, samplerate=22050, path_to_words="data/training/words/", **params)
-dataloader_validation = datagenerator.DataGenerator(words=words, samplerate=22050, path_to_words="data/validation/words/", **params)
+dataloader_training = datagenerator.DataGenerator(words=words, samplerate=22500, path_to_words="data/training/words/", **params)
+dataloader_validation = datagenerator.DataGenerator(words=words, samplerate=22500, path_to_words="data/validation/words/", **params)
 
 #dataloader_validation = datagenerator.DataGenerator(backgrounds,valid_act, valid_neg, samplerate=44100, **params)
 
@@ -108,8 +125,6 @@ dataloader_validation = datagenerator.DataGenerator(words=words, samplerate=2205
 
 #model = load_model('./Keras-Trigger-Word/models/tr_model.h5')
 #print(model.summary())
-
-
 
 
 opt = Adam(lr=0.005, beta_1=0.9, beta_2=0.999, decay=0.01)
@@ -146,9 +161,35 @@ weight = len(train_neg)/len(train_act)
         #print(ingoing, outgoing)
 
 
+
+
+
 history = model.fit_generator(dataloader_training, epochs = 80, use_multiprocessing=True, workers=24,#class_weight = class_weight,
                         max_queue_size=1000, callbacks=callbacks, validation_data=dataloader_validation)#,validation_data=dataloader_validation)
     #, validation_data=dataloader_validation
+
+
+
+
+#Generate test set and make confusion matrix for it
+BATCH = []
+Y = []
+for i in range(dataloader_validation.__len__()):
+    batch, y = dataloader_validation.__getitem__(i)
+    BATCH.append(batch)
+    Y.append(y)
+batch = np.array([item for sublist in BATCH for item in sublist])
+y = [item for sublist in Y for item in sublist]
+y_true = np.argmax(y,axis=1)
+y_true_labeled = [words[y_true[i]] for i in range(len(y_true))]
+predictions = model.predict(batch)
+y_pred = np.argmax(predictions,axis=1)
+y_pred_labeled = [words[y_pred[i]] for i in range(len(y_pred))]
+confusion = confusion_matrix(y_true_labeled, y_pred_labeled, labels=words)
+print(words)
+print(confusion)
+
+
 print("History from training:")
 print(history.history.keys())
     #utils.plt_history(history, str(i))
@@ -156,6 +197,4 @@ print(history.history.keys())
     #model.fit(X, Y, batch_size = 10, epochs=10)
     #loss, acc = model.evaluate(X_dev, Y_dev)
     #print("Dev set accuracy = ", acc)
-
-
 
