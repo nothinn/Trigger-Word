@@ -7,29 +7,28 @@ import numpy as np
 from pathlib import Path
 import librosa
 
-words = dict()
-#    data, samplerate = sf.read(audioPath)
+
+words = dict()#Dictionary to hold the words
 filesr = 33100 #SampleRate for output file
 
+#Dir containing the wiki dirs
 dirs = os.listdir("english/")
 
+#Make the dir to contain the exported words
 Path("words/").mkdir(parents=True, exist_ok=True)
+
+#For each wiki entry
 for dir in dirs:
     print(dir)
-
     path = "english/" + dir
     try:
-
         audioPath = path + "/audio.ogg"
-
         tree = ET.parse(path + "/aligned.swc")
 
-
-
         print("Adding: {}".format(audioPath))
+        #Load the audio for the entry
         data, samplerate = librosa.load(audioPath,filesr)
         print(samplerate)
-
 
         root = tree.getroot()
         for n in root.findall(".//n"): #Finds all "n" elements in entire tree
@@ -38,31 +37,28 @@ for dir in dirs:
             end = n.get('end')
             if start: #These must not be None
                 if end:
-
-                    
+                    #Make folder for the word in the entry
                     Path("words/" + word).mkdir(parents=True, exist_ok=True)
 
                     try:
                         info = open("words/" + word + "/list.txt","r")
                         lines = info.readlines()
-                        #print(lines)
                         index = 0
                         if(len(lines) >= 1):
                             lastLine = lines[-1]
-                            #print(lastLine)
                             index = int(lastLine.split(" ")[0]) + 1
                         info.close()
                     except FileNotFoundError:
                         index = 0
                         pass
                     
+                    #Extract the information needed 
                     tempPath = "words/" + word + "/" + word + "_" + str(index) +".wav"
-                    #print(tempPath)
-                    with sf.SoundFile(tempPath, "w", samplerate=filesr,channels=1) as f:                  
-
+                    with sf.SoundFile(tempPath, "w", samplerate=filesr,channels=1) as f:
                         startSample = samplerate * (int(start) / 1000.0 + 0.1) #.1 second before and after
                         endSample = samplerate * (int(end) / 1000.0 + 0.1)
 
+                        #Info about extracted words for debugging
                         info = open("words/" + word + "/list.txt","a")
                         info.write(str(index))
                         info.write(" ")
@@ -72,11 +68,10 @@ for dir in dirs:
                         info.write(" ")
                         info.write(str(endSample))
                         info.write("\n")
-                        info.flush()
                         info.close()
                         
+                        #Save the audio clip
                         f.write(data[int(startSample):int(endSample)])
-
                     try:
                         words[word].append((audioPath, int(start),int(end)))
                     except KeyError:
